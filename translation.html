@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- select box styling -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
+    
+          <script>
+            $(function() {
+
+              var selectBox = $("select").selectBoxIt({});
+
+            });
+          </script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap" rel="stylesheet"> 
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/bf4b102462.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/box_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABHIDHAMMĀVATĀRA</title>
+  </head>
+  <body>
+  <nav class= "navbar">
+    
+    <div class="navbar-links">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="translation.html">TRANSLATION</a></li>
+    </ul>
+    </div>
+    <div class="logo" >Abhidhammāvatāra</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+
+    <div class="text-choice">
+      <input type="checkbox" id="original" name="original" checked onclick="displayText()">
+      <label for="original">Original</label>
+      <input type="checkbox" id="literal" name="literal" checked onclick="displayText()">
+      <label for="literal">Literal Translation</label>
+      <input type="checkbox" id="free" name="free" checked onclick="displayText()">
+      <label for="free">Free Translation</label>
+      <select id="chapter-choice" onchange="displayText()">
+        <option value="nill">Choose a chapter</option>
+        <option value="0">Introduction</option>
+        <option value="1">Chapter 1</option>
+        <option value="2">Chapter 2</option>
+        <option value="3">Chapter 3</option>
+      </select>
+    </div>
+    <section>
+      <div class="container" id="text"></div>
+    </section>
+     <footer><img src="/images/manuscript_title_small.png" alt=""></footer>
+     <script src="/app/displayText.js"></script>
+     <script src="/app/nav.js"></script>
+  </body>
+</html>

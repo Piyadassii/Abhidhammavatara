@@ -424,6 +424,8 @@ span.tooltip span {
   transition-duration: 200ms;
 }
 
+span.tooltip:focus span,
+span.tooltip:active span,
 span.tooltip:hover span {
   color: #18314f;
   background: rgba(229, 215, 188, 1);

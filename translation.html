@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- select box styling -->
+    <!-- select box styling by gregfranko -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
@@ -17,6 +17,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="/Abhidhammavatara/css/style.css">
     <link rel="stylesheet" href="/Abhidhammavatara/css/box_style.css" />
+    <link rel="stylesheet" href="/Abhidhammavatara/css/select.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABHIDHAMMĀVATĀRA</title>
@@ -49,8 +50,9 @@
       <label for="literal">Literal Translation</label>
       <input type="checkbox" id="free" name="free" checked onclick="displayText()">
       <label for="free">Free Translation</label>
-      <select id="chapter-choice" onchange="displayText()">
-        <option value="nill">Choose a chapter</option>
+      <select id="chapter-choice" 
+    >
+        <option value="hide">Choose a chapter</option>
         <option value="0">Introduction</option>
         <option value="1">Chapter 1</option>
         <option value="2">Chapter 2</option>
@@ -63,5 +65,6 @@
      <footer><img src="/Abhidhammavatara/images/manuscript_title_small.png" alt=""></footer>
      <script src="/Abhidhammavatara/app/displayText.js"></script>
      <script src="/Abhidhammavatara/app/nav.js"></script>
+     <script src="/Abhidhammavatara/app/select.js"></script>
   </body>
 </html>

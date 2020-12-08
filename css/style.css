@@ -293,7 +293,7 @@ section {
 [type="checkbox"]:checked {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  display: none;
 }
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label {

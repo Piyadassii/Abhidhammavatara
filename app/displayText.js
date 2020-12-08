@@ -1,27 +1,21 @@
-function displayText() {
+function displayText(value) {
   $(".container").empty();
   let chapter = parseInt(document.getElementById("chapter-choice").value);
+  if (!value || value == "undefined") return false;
+
+  // console.log("here is chapter value:", value);
   let chapterName =
-    `<h1> ${chapterNamePali[chapter]}</h1>` +
-    `<h2> ${chapterNameEng[chapter]}</h2>`;
+    `<h1> ${chapterNamePali[value]}</h1>` +
+    `<h2> ${chapterNameEng[value]}</h2>`;
   $(".container").append(chapterName);
-  for (let i = 0; i < pali[chapter].length; i++) {
-    (textPali = `<p class="pali"> ${pali[chapter][i]}</p>`),
-      (textLit = `<p class="lit"> ${lit[chapter][i]}</p>`),
-      (textFree = `<p class="free"> ${free[chapter][i]}</p>`);
+
+  for (let i = 0; i < pali[value].length; i++) {
+    (textPali = `<p class="pali"> ${pali[value][i]}</p>`),
+      (textLit = `<p class="lit"> ${lit[value][i]}</p>`),
+      (textFree = `<p class="free"> ${free[value][i]}</p>`);
     $(".container").append(textPali + textLit + textFree);
   }
-  if ($("#original").is(":checked") == false) {
-    $(".pali").hide();
-  }
-  if ($("#literal").is(":checked") == false) {
-    $(".lit").hide();
-  }
-  if ($("#free").is(":checked") == false) {
-    $(".free").hide();
-  }
 }
-
 const chapterNamePali = [
   "Ganthārambhakathā",
   "1. CITTANIDDESO",

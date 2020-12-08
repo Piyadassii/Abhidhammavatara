@@ -377,7 +377,7 @@ label:hover:before {
     padding-left: 5%;
   }
   label[for="free"] {
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
   }
 }
 

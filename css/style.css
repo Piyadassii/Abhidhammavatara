@@ -323,11 +323,6 @@ label[for="free"] {
   background-color: #ddd;
 }
 
-/* accessibility */
-[type="checkbox"]:checked:focus + label:before,
-[type="checkbox"]:not(:checked):focus + label:before {
-  border: 2px dotted #8bbeb2;
-}
 
 /* hover style just for information */
 label:hover:before {

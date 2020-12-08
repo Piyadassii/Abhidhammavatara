@@ -36,13 +36,13 @@ $("select").each(function () {
     $(this).toggleClass("active").next("ul.select-options").toggle();
   });
 
-  $listItems.click(function (e) {
+   $listItems.click(function (e) {
     e.stopPropagation();
     $styledSelect.text($(this).text()).removeClass("active");
     $this.val($(this).attr("rel"));
     $list.hide();
-    document.getElementById("chapter-choice").value = $this.val();
-    console.log(document.getElementById("chapter-choice").value);
+    const chapterValue = $this.val();
+    displayText(chapterValue);
   });
 
   $(document).click(function () {

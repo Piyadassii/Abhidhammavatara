@@ -23,6 +23,7 @@
   background-color: #18314f;
   border-radius: 4px;
   padding: 8px 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;

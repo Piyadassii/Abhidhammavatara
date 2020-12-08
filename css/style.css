@@ -294,6 +294,7 @@ section {
   -webkit-appearance: none;
   -moz-appearance: none;
   display: none;
+  visibility: hidden;
 }
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label {

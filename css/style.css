@@ -431,3 +431,20 @@ span.tooltip:hover span {
 .references li {
   list-style: square;
 }
+
+.img-wrapper {
+  height: 400px;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow-x: auto;
+  overflow-y: auto;
+  /* white-space: nowrap; */
+}
+.img-wrapper > img {
+  position: relative;
+  display: block;
+  height: 400%;
+  width: auto;
+}
+

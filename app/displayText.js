@@ -15,6 +15,15 @@ function displayText(value) {
       (textFree = `<p class="free"> ${free[value][i]}</p>`);
     $(".container").append(textPali + textLit + textFree);
   }
+    if ($("#original").is(":checked") == false) {
+    $(".pali").hide();
+  }
+  if ($("#literal").is(":checked") == false) {
+    $(".lit").hide();
+  }
+  if ($("#free").is(":checked") == false) {
+    $(".free").hide();
+  }
 }
 const chapterNamePali = [
   "Ganthārambhakathā",

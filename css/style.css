@@ -16,14 +16,16 @@ html {
 }
 
 body {
+  --color: #492607;
   background: #f5f5f5;
-  color: #492607;
+  color: var(--color);
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
 }
 
 i {
   font-family: "Gentium Book Basic", serif;
+  font-size: 1.4rem;
 }
 
 h1 {
@@ -444,27 +446,20 @@ footer img {
 span.tooltip {
   padding: 0 2px;
   border-bottom: 1px dotted;
-}
-
-span.tooltip.ref {
-  padding: 0 2px;
-  border-bottom: 1px dotted rgb(131, 41, 90);
+  position: relative;
 }
 
 span.tooltip span {
-  display: block;
+  display: inline-block;
   font-size: 1rem;
   position: absolute;
   left: 15%;
-  margin: 20px 0 0 0px;
-  padding: 3px;
-  border-style: solid;
+  top: -3rem;
+  padding: 5px;
   color: #18314f00;
-  border-color: rgba(153, 129, 24, 0);
-  background: rgb(229, 215, 188, 0);
+  background-color: rgb(229, 215, 188, 0);
   border-width: 1px;
   border-radius: 4px;
-  max-width: 60%;
   z-index: 6;
   transition-duration: 200ms;
 }
@@ -474,10 +469,80 @@ span.tooltip:active span,
 span.tooltip:hover span {
   color: #18314f;
   background: rgba(229, 215, 188, 1);
-  border-color: rgba(153, 129, 24, 0);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .references li {
   list-style: square;
+}
+
+/* popup window*/
+
+#anchor {
+  position: fixed;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup:target .popup_content {
+  transform: scale(1);
+  opacity: 1;
+}
+.popup_area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.popup_body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup_content {
+  background-color: #fff;
+  color: #000;
+  max-width: 600px;
+  padding: 30px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.popup_close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a.ref {
+  padding: 0 2px;
+  text-decoration: none;
+  color: var(--color);
+  background-color: #0261741a;
+  border-radius: 4px;
 }

@@ -53,8 +53,12 @@ h2 {
 
 .references {
   position: relative;
-  font-size: 0.8em;
+  font-size: 1.3rem;
   margin-top: 6rem;
+}
+
+.refernces i {
+  font-size: 1.2rem;
 }
 
 .img--cut {

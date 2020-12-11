@@ -1,5 +1,6 @@
 function displayText(value) {
   $(".container").empty();
+  $(".container").removeClass("contents");
   let chapter = parseInt(document.getElementById("chapter-choice").value);
   if (!value || value == "nill") {
     tocBuilder();

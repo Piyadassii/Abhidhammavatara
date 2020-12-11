@@ -3,28 +3,54 @@ function displayText(value) {
   let chapter = parseInt(document.getElementById("chapter-choice").value);
   if (!value || value == "undefined") return false;
 
-  // console.log("here is chapter value:", value);
+  // append Chapter Title;
   let chapterName =
     `<h1> ${chapterNamePali[value]}</h1>` +
     `<h2> ${chapterNameEng[value]}</h2>`;
   $(".container").append(chapterName);
-
+  // append the text
   for (let i = 0; i < pali[value].length; i++) {
     (textPali = `<p class="pali"> ${pali[value][i]}</p>`),
       (textLit = `<p class="lit"> ${lit[value][i]}</p>`),
       (textFree = `<p class="free"> ${free[value][i]}</p>`);
     $(".container").append(textPali + textLit + textFree);
   }
-    if ($("#original").is(":checked") == false) {
-    $(".pali").hide();
+
+  //append the notes
+  //   function noteBlockBuilder(note, noteNumber) {
+  //     let noteBlock = `<div id='note${noteNumber}' class='popup'>
+  //     <a href="#anchor" class="popup_area"></a>
+  //     <div class='popup_body'>
+  //         <div class='popup_content'>
+  //             <a href='#anchor' class='popup_close'>&times;</a>
+  //             <div class='popup_text'>${note}</div>
+  //         </div>
+  //     </div>
+  // </div>`;
+  //     $(".container").append(noteBlock);
+  //   }
+  //   notesPali[value].forEach(noteBlockBuilder);
+
+  function noteBlockBuilder(note, noteNumber, language) {
+    let noteBlock = `<div id='note${language}${noteNumber}' class='popup'>
+    <a href="#anchor" class="popup_area"></a>
+    <div class='popup_body'>
+        <div class='popup_content'>
+            <a href='#anchor' class='popup_close'>&times;</a>
+            <div class='popup_text'>${note}</div>
+        </div>
+    </div>
+</div>`;
+    $(".container").append(noteBlock);
   }
-  if ($("#literal").is(":checked") == false) {
-    $(".lit").hide();
+  for (let i = 0; i < notesPali[value].length; i++) {
+    noteBlockBuilder(notesPali[value][i], i, "Pali");
   }
-  if ($("#free").is(":checked") == false) {
-    $(".free").hide();
+  for (let i = 0; i < notesLit[value].length; i++) {
+    noteBlockBuilder(notesLit[value][i], i, "Lit");
   }
 }
+
 const chapterNamePali = [
   "Ganthārambhakathā",
   "1. CITTANIDDESO",
@@ -37,9 +63,10 @@ const chapterNameEng = [
   "The Exposition Of Mental Factors",
   "The Exposition Of Classification of Mental Factors",
 ];
+
 const pali = [
   [
-    "1. anantakaruṇāpaññaṃ tathāgatam anuttaraṃ <br> vanditvā sirasā buddhaṃ, dhammaṃ sādhugaṇam ’pi ca",
+    "1. anantakaruṇāpaññaṃ tathāgatam <span class='tooltip' onclick='' aria-haspopup='true'>anuttaraṃ<span>anuttamaṃ</span></span> <br> vanditvā sirasā buddhaṃ, dhammaṃ sādhugaṇam ’pi ca",
     "2-3. paṇḍukambalanāmāya, silāyātulavikkamo <br>nisinno devarājassa vimale sītale tale<br> yaṃ devadevo devānaṃ, devadevehi pūjito <br> desesi devalokasmiṃ, dhammaṃ devapurakkhato",
     "4. tatthāhaṃ pāṭavatthāya, bhikkhūnaṃ piṭakuttame <br>abhidhammāvatāran tu, madhuraṃ mativaḍḍhanaṃ",
     "5. tāḷaṃ mohakavāṭassa, vighāṭanam anuttaraṃ bhikkhūnaṃ <br>pavisantānaṃ, abhidhamma-mahāpuraṃ",
@@ -48,11 +75,19 @@ const pali = [
   ],
   [
     "8. cittaṃ cetasikaṃ rūpaṃ, nibbānan ti niruttaro<br>catudhā desayī dhamme, catusaccappakāsano",
-    "tattha cittan 'ti visayavijānanaṃ cittaṃ, tassa pana ko vacanattho? vuccate: sabbasaṅgāhakavasena pana cintetī ti cittaṃ, attasantānaṃ  vā cinotī ti pi cittaṃ. [2]",
+    "tattha cittan 'ti visayavijānanaṃ cittaṃ, tassa pana ko vacanattho? vuccate: <a href='#notePali0' class='ref'>sabbasaṅgāhakavasena pana cintetī ti cittaṃ</a>, <a href='#notePali1' class='ref'>attasantānaṃ  vā cinotī ti pi cittaṃ.</a> [2]",
     "9. vicittakaraṇā cittaṃ attano cittatāya vā,<br>  paññattiyam pi viññāṇe, vicitte cittakammake,<br>  cittasammuti daṭṭhabbā viññāṇe idha viññunā",
     "taṃ pana sārammaṇato ekavidhaṃ, savipākāvipākato duvidhaṃ. tattha savipākaṃ nāma kusalākusalaṃ; avipākaṃ abyākataṃ. kusalākusalābyākatajātibhedato tividhaṃ. tattha kusalan 'ti pan' etassa ko vacanattho?",
     "10. kucchitānaṃ salanato, kusānaṃ lavanena vā<br>  kusena lātabbattā vā, kusalan 'ti pavuccati",
     "11. cheke kusalasaddo 'yaṃ, ārogye anavajjake<br>  diṭṭho iṭṭhavipāke pi, anavajjādike idha",
+  ],
+];
+
+const notesPali = [
+  [],
+  [
+    "Abhi-āv-pt I 1: <i>Ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ.</i>",
+    "Abhi-āv-pt I 1: <i>Javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</i>.",
   ],
 ];
 
@@ -67,11 +102,19 @@ const lit = [
   ],
   [
     "8. The Unsurpassed One who made known the four noble truths taught four dhammas: consciousness, mental factors, matter and nibbāna.",
-    "Herein, ‘consciousness’ means consciousness as cognizing an object. What does it mean? It is said, all-inclusively  it’s called ‘consciousness’ (citta) because it thinks (cinteti) ; or else it is called consciousness as that which accumulates (cinoti) the continuum of one-self. [2]",
-    "9. It’s called ‘consciousness’ (citta) due to its making things variegated (vicitta/vicitra), or due to its own being variegated (cittatā/citratā). [It can mean] mind as concept , cognition (viññāṇa), variegated (vicitta), and painting-work (cittakammaka) . Here it should be understood by a wise person in the sense of cognition.",
-    "It is of one kind as to having an object; it is of two kinds with regard to producing and not producing results. Herein, wholesome and unwholesome are productive of results; indeterminate ones are not productive of results. According to its classification as wholesome, unwholesome, or indeterminate, it is of three kinds. What is the meaning of this ‘wholesome’ (kusala) here?",
-    "10. It’s called ‘wholesome’ because of its shaking (salana) contemptible (kucchita), or cutting (lavana) of blades of kusa grass (kusa) , or else because it is something that by knowledge (kusa)  should be acquired (lātabba).",
+    "Herein, ‘consciousness’ means consciousness as cognizing an object. What does it mean? It is said, <a href='#noteLit0' class='ref'> all-inclusively  it’s called ‘consciousness’ (<i>citta</i>) because it thinks (<i>cinteti</i>);</a> or else <a href='#noteLit1' class='ref'>it is called consciousness as that which accumulates (<i>cinoti</i>) the continuum of one-self.</a> [2]",
+    "9. It’s called ‘consciousness’ (<i>citta</i>) due to its making things variegated (<i>vicitta/vicitra</i>), or due to its own being variegated (<i>cittatā/citratā</i>). [It can mean] mind as concept , cognition (<i>viññāṇa</i>), variegated (<i>vicitta</i>), and painting-work (<i>cittakammaka</i>) . Here it should be understood by a wise person in the sense of cognition.",
+    "It is of one kind as to having an object; it is of two kinds with regard to producing and not producing results. Herein, wholesome and unwholesome are productive of results; indeterminate ones are not productive of results. According to its classification as wholesome, unwholesome, or indeterminate, it is of three kinds. What is the meaning of this ‘wholesome’ (<i>kusala</i>) here?",
+    "10. It’s called ‘wholesome’ because of its shaking (<i>salana</i>) contemptible (<i>kucchita</i>), or cutting (lavana) of blades of kusa grass (<i>kusa</i>) , or else because it is something that by knowledge (<i>kusa</i>)  should be acquired (<i>lātabba</i>).",
     "11. The word ‘wholesome’ is seen in the meanings: clever, health, faultless, and giving agreeable results. Herein, [it means] ‘blameless’, and ‘giving agreeable results’.",
+  ],
+];
+
+const notesLit = [
+  [],
+  [
+    "Abhi-āv-pt I 1: When consciousness is defined as that which knows, thinks about an object, all consciousness is meant.",
+    "Abhi-āv-pt I 1: When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant.",
   ],
 ];
 
@@ -86,7 +129,7 @@ const free = [
   ],
   [
     "8. The one who showed the four ennobling truths,  four dhammas taught the Unsurpassed One:  Citta or consciousness, cetasika – mental factors,  rūpa or matter, and nibbāna.",
-    "Here, citta means consciousness as cognition of an object. What does it mean? Any citta is called so because it thinks (cinteti) [about an object], or, because the cittas [that constitute an action] also accumulate (cinoti) the continuum of one-self.",
+    "Here, <i>citta</i> means consciousness as cognition of an object. What does it mean? Any citta is called so because it thinks (<i>cinteti</i>) [about an object], or, because the cittas [that constitute an action] also accumulate (<i>cinoti</i>) the continuum of one-self.",
     "9. It variegates or it is variegated-vicitta thus it’s citta.  It can denote a painting or simply a name, cognition or a thing variegated.  The meaning of cognition is the sense   That knowledgeable should understand here.",
     "",
     "10. Contemtible-ku it shakes-sala thus it’s called kusala.  Like blades of kusa grass it cuts thus it is kusala.  Or else by knowledge-kusa it’s to be acquired, so it’s named kusala.",

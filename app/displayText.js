@@ -20,28 +20,6 @@ function displayText(value) {
       $(".container").append(textPali + textLit + textFree);
     }
 
-    //append thefunction displayText(value) {
-  $(".container").empty();
-  $(".container").removeClass("contents");
-  let chapter = parseInt(document.getElementById("chapter-choice").value);
-  if (!value || value == "nill") {
-    tocBuilder();
-  } else {
-    // append Chapter Title;
-    let chapterName =
-      `<h1> ${chapterNamePali[value]}</h1>` +
-      `<h2> ${chapterNameEng[value]}</h2>`;
-    $(".container").append(chapterName);
-    // append the text
-    for (let i = 0; i < pali[value].length; i++) {
-      textPali = `<p class="pali"> ${pali[value][i]}</p>`;
-      textLit = `<p class="lit"> ${lit[value][i]}</p>`;
-      free[value][i] == ""
-        ? (textFree = `<p class="free"> ${lit[value][i]}</p>`) // if free translation is the same as literal, dublicate it
-        : (textFree = `<p class="free"> ${free[value][i]}</p>`);
-      $(".container").append(textPali + textLit + textFree);
-    }
-
     //append the notes
 
     for (let i = 0; i < notesPali[value].length; i++) {
@@ -137,7 +115,7 @@ const chapterNameEng = [
 
 const pali = [
   [
-    "1. anantakaruṇāpaññaṃ tathāgatam <span class='tooltip' onclick='' aria-haspopup='true'>anuttaraṃ<span>anuttamaṃ</span></span> <br> vanditvā sirasā buddhaṃ, dhammaṃ sādhugaṇam ’pi ca",
+    "1. anantakaruṇāpaññaṃ tathāgatam <span class='tooltip' onclick='' aria-haspopup='true'>anuttaraṃ<span>BDFHK anuttamaṃ</span></span> <br> vanditvā sirasā buddhaṃ, dhammaṃ sādhugaṇam ’pi ca",
     "2-3. paṇḍukambalanāmāya, silāyātulavikkamo <br>nisinno devarājassa vimale sītale tale<br> yaṃ devadevo devānaṃ, devadevehi pūjito <br> desesi devalokasmiṃ, dhammaṃ devapurakkhato",
     "4. tatthāhaṃ pāṭavatthāya, bhikkhūnaṃ piṭakuttame <br>abhidhammāvatāran tu, madhuraṃ mativaḍḍhanaṃ",
     "5. tāḷaṃ mohakavāṭassa, vighāṭanam anuttaraṃ bhikkhūnaṃ <br>pavisantānaṃ, abhidhamma-mahāpuraṃ",

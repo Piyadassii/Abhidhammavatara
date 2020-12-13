@@ -6,6 +6,7 @@ function displayText(value) {
     tocBuilder();
   } else {
     // append Chapter Title;
+    $(".container").parents().addClass("text");
     let chapterName =
       `<h1> ${chapterNamePali[value]}</h1>` +
       `<h2> ${chapterNameEng[value]}</h2>`;
@@ -58,30 +59,30 @@ function tocBuilder() {
 
 const chapterNamePali = [
   "Ganthārambhakathā",
-  "1. Cittaniddeso",
-  "2. Cetasikaniddeso",
-  "3. Cetasikavibhāganiddeso",
-  "4. Ekavidhādiniddeso",
-  "5. Cittuppattiniddeso",
-  "6. Ārammaṇavibhāganiddeso",
-  "7. Vipākacittappavattiniddeso",
-  "8. Pakiṇṇakaniddeso",
-  "9. Puññavipākapaccayaniddeso",
-  "10. Rūpavibhāganiddeso",
-  "11. Nibbānaniddeso",
-  "12. Paññattiniddeso",
-  "13. Kārakapaṭivedhaniddeso",
-  "14. Rūpāvacarasamādhibhāvanāniddeso",
-  "15. Arūpāvacarasamādhibhāvanāniddeso",
-  "16. Abhiññāniddeso",
-  "17. Abhiññārammaṇaniddeso",
-  "18. Diṭṭhivisuddhiniddeso",
-  "19. Kaṅkhāvitaraṇavisuddhiniddeso",
-  "20. Maggāmaggañāṇadassanavisuddhiniddeso",
-  "21. Paṭipadāñāṇadassanavisuddhiniddeso",
-  "22. Ñāṇadassanavisuddhiniddeso",
+  "1. Citta-niddeso",
+  "2. Cetasika-niddeso",
+  "3. Cetasikavibhāga-niddeso",
+  "4. Ekavidhādi-niddeso",
+  "5. Cittuppatti-niddeso",
+  "6. Ārammaṇavibhāga-niddeso",
+  "7. Vipākacittappavatti-niddeso",
+  "8. Pakiṇṇaka-niddeso",
+  "9. Puññavipākapaccaya-niddeso",
+  "10. Rūpavibhāga-niddeso",
+  "11. Nibbāna-niddeso",
+  "12. Paññatti-niddeso",
+  "13. Kārakapaṭivedha-niddeso",
+  "14. Rūpāvacarasamādhi-bhāvanā-niddeso",
+  "15. Arūpāvacarasamādhi-bhāvanā-niddeso",
+  "16. Abhiññā-niddeso",
+  "17. Abhiññārammaṇa-niddeso",
+  "18. Diṭṭhi-visuddhi-niddeso",
+  "19. Kaṅkhāvitaraṇa-visuddhi-niddeso",
+  "20. Maggāmagga-ñāṇadassana-visuddhi-niddeso",
+  "21. Paṭipadā-ñāṇadassana-visuddhi-niddeso",
+  "22. Ñāṇadassana-visuddhi-niddeso",
   "23. Kilesappahānakathā",
-  "24. Paccayaniddeso",
+  "24. Paccaya-niddeso",
   "Nigamanakathā",
 ];
 const chapterNameEng = [

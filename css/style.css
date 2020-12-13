@@ -108,7 +108,7 @@ section {
   padding-bottom: 150px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   section {
     width: 95%;
     padding: 20px;
@@ -160,12 +160,15 @@ section {
   display: block;
   text-decoration: none;
   font-family: "Gentium Book Basic", serif;
+  /* text-transform: uppercase; */
+  font-size: 1.7rem;
   color: white;
-  font-weight: 700;
-  padding: 1em;
+  font-weight: 400;
+  padding: 1.5rem;
 }
 
-.navbar-links li:hover {
+.navbar-links li:hover,
+.logo:hover {
   background-color: #356c77;
   border-radius: 0.8rem;
 }
@@ -188,7 +191,7 @@ section {
   border-radius: 10px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 710px) {
   .navbar {
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -237,14 +240,48 @@ section {
 }
 
 .logo {
+  display: block;
   font-family: "Modern Antiqua", cursive;
+  /* letter-spacing: 2px; */
+  text-decoration: none;
+  color: white;
   text-transform: capitalize;
-  font-weight: 900;
-  font-size: 1.5rem;
-  margin: 0.5rem;
-  margin-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin: 0;
+  margin-right: 2px;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .logo {
+    font-size: 1.6rem;
+  }
+  .toggle-button {
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 21px;
+  }
+  h1 a {
+    font-size: 1.4rem;
+  }
+}
+
+.logo:hover {
 }
 
 /* navigation bar ends */
@@ -271,12 +308,20 @@ section {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
+  /* gap: 1rem; */
   /* min-height: 20rem; */
   justify-content: space-around;
 }
-
+section.text {
+  padding: 15px;
+}
+@media (max-width: 420px) {
+  #text p {
+    min-width: 280px;
+  }
+}
 .contents {
   display: block;
 }
@@ -286,10 +331,15 @@ section {
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 3em;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   /* text-align: center; */
   color: #0b788f;
   margin-bottom: 0px;
+}
+
+.contents li:nth-child(n + 5),
+.contents li:nth-child(n + 5) > ul > li {
+  color: gray;
 }
 
 .contents li > ul > li {
@@ -302,15 +352,15 @@ section {
   font-family: "Gentium Book Basic", serif;
   font-style: italic;
   flex-basis: 70%;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 .lit {
-  flex-basis: 48%;
+  flex-basis: 45%;
 }
 
 .free {
-  flex-basis: 48%;
+  flex-basis: 45%;
   color: rgb(100, 100, 100);
 }
 /* checkboxes */
@@ -423,11 +473,11 @@ label:hover:before {
 }
 
 .content-choice a {
-  color: #18314f;
+  color: #003742;
 }
 
 .content-choice a:hover {
-  color: #8f490b;
+  color: #837a51;
 }
 
 .article {

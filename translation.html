@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="/Abhidhammavatara/css/select.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABHIDHAMMĀVATĀRA</title>
+    <!-- tooltip -->
+    <rel="stylesheet"
+    href="/node_modules/tippy.js/dist/tippy.css"
+  />
+    <title>Abhidhammāvatāra</title>
   </head>
   <body>
-  <nav class= "navbar">
-    
+  <nav class= "navbar">   
     <div class="navbar-links">
     <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="translation.html">TRANSLATION</a></li>
+      <li><a href="about.html">Introduction</a></li>
+      <li><a href="translation.html">Translation</a></li>
     </ul>
     </div>
-    <div class="logo" >Abhidhammāvatāra</div>
+    <a href="index.html" class="logo" >Abhidhammāvatāra</a>
     <a href="#" class="toggle-button">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -38,20 +40,26 @@
       <input type="checkbox" id="free" name="free" checked onclick="handleOnChange(this, '#free', '.free')">
       <label for="free">Free Translation</label>
       <select id="chapter-choice">
-        <option value="nill">Choose a chapter</option>
-        <option value="0">Introduction</option>
-        <option value="1">Chapter 1</option>
-        <option value="2">Chapter 2</option>
-        <option value="3">Chapter 3</option>
+        <option value="nill">Go to chapter</option>
+        <option value="0">Ganthārambhakathā</option>
+        <option value="1">1. Citta-niddeso</option>
+        <option value="2">2. Cetasika-niddeso</option>
+        <option value="3">3. Cetasikavibhāga-niddeso</option>
       </select>
     </div>
     <section>
       <div class="container" id="text"></div>
     </section>
      <footer><img src="/Abhidhammavatara/images/manuscript_title_small.png" alt=""></footer>
+     <!-- scripts -->
+     <!-- tooltip -->
+     <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+<!-- local -->
      <script src="/Abhidhammavatara/app/displayText.js"></script>
      <script src="/Abhidhammavatara/app/nav.js"></script>
      <script src="/Abhidhammavatara/app/select.js"></script>
      <script src="/Abhidhammavatara/app/checkBox.js"></script>
+     
   </body>
 </html>

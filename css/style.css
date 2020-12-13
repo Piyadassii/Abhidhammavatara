@@ -4,9 +4,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua");
 
-@import url("/Abhidhammavatara/node_modules/tippy.js/themes/light.css");
+@import url("https://unpkg.com/tippy.js@6/themes/light.css");
 @import url("light-yellow.css");
-@import url("/Abhidhammavatara/node_modules/tippy.js/dist/tippy.css");
+
 
 *,
 *::before,

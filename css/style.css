@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua");
 
+@import url("/node_modules/tippy.js/themes/light.css");
+@import url("/node_modules/tippy.js/themes/light-yellow.css");
+@import url("/node_modules/tippy.js/dist/tippy.css");
+
 *,
 *::before,
 *::after {
@@ -311,9 +315,8 @@ section {
 .container {
   display: inline-flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
-  /* min-height: 20rem; */
   justify-content: space-around;
+  padding-bottom: 120px;
 }
 section.text {
   padding: 15px;
@@ -325,6 +328,10 @@ section.text {
 }
 .contents {
   display: block;
+}
+
+ol {
+  list-style-type: none;
 }
 .contents li {
   list-style: none;
@@ -338,15 +345,21 @@ section.text {
   margin-bottom: 0px;
 }
 
-.contents li:nth-child(n + 5),
-.contents li:nth-child(n + 5) > ul > li {
+.contents li:nth-child(n + 3),
+.contents li:nth-child(n + 3) > ul > li {
   color: gray;
+}
+
+.contents li:nth-child(1),
+.contents li:nth-child(2) {
+  cursor: pointer;
 }
 
 .contents li > ul > li {
   color: var(--color);
   font-size: 1rem;
   letter-spacing: 2px;
+  margin-bottom: 0.7rem;
 }
 
 .pali {
@@ -519,7 +532,7 @@ footer img {
 
 /* tooltip  */
 
-span.tooltip {
+/* span.tooltip {
   padding: 0 2px;
   border-bottom: 1px dotted;
   position: relative;
@@ -546,7 +559,7 @@ span.tooltip:hover span {
   color: #18314f;
   background: rgba(229, 215, 188, 1);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-}
+} */
 
 .references li {
   list-style: square;
@@ -570,6 +583,7 @@ span.tooltip:hover span {
   overflow-y: auto;
   overflow-x: hidden;
   transition: all 0.5s ease 0s;
+  z-index: 10;
 }
 
 .popup:target {
@@ -621,4 +635,64 @@ a.ref {
   color: var(--color);
   background-color: #0261741a;
   border-radius: 4px;
+}
+
+.tooltipReference {
+  border-bottom: 2px dotted black;
+}
+
+/* witness classes colors */
+
+a.ref.witnesses {
+  background-color: rgb(255, 242, 206);
+}
+
+.witnessA {
+  color: teal;
+  text-decoration: underline;
+}
+span.witnessB {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+.witnessC {
+  color: tomato;
+  text-decoration: underline;
+}
+.witnessD {
+  color: blueviolet;
+  text-decoration: underline;
+}
+.witnessE {
+  color: olivedrab;
+  text-decoration: underline;
+}
+.witnessF {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+.witnessG {
+  color: rgb(211, 197, 0);
+  text-decoration: underline;
+}
+.witnessH {
+  color: orange;
+  text-decoration: underline;
+}
+.witnessI {
+  color: palevioletred;
+  text-decoration: underline;
+}
+.witnessK {
+  color: turquoise;
+  text-decoration: underline;
+}
+
+.witnessPTS {
+  color: blue;
+  text-decoration: underline;
+}
+.witnessCS {
+  color: red;
+  text-decoration: underline;
 }

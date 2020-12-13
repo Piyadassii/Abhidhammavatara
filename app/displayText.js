@@ -1,12 +1,13 @@
 function displayText(value) {
   $(".container").empty();
   $(".container").removeClass("contents");
+  $(".text").removeClass("text");
   let chapter = parseInt(document.getElementById("chapter-choice").value);
   if (!value || value == "nill") {
     tocBuilder();
   } else {
     // append Chapter Title;
-    $(".container").parents().addClass("text");
+    $(".container").parents("section").addClass("text");
     let chapterName =
       `<h1> ${chapterNamePali[value]}</h1>` +
       `<h2> ${chapterNameEng[value]}</h2>`;

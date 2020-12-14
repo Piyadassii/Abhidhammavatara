@@ -89,13 +89,18 @@ function navigateFromToc() {
   });
 }
 navigateFromToc();
-// searches for a matching string (s) under a key (key) in the object (arr) returns an array of strings
 
-function search(arr, key, s) {
-  var matches, i;
-  for (i = arr.length; i--; )
-    for (key in arr[i]) if (arr[i][key].indexOf(s) > -1) matches = arr[i];
-  return matches;
+// searches for a description of a matching witness
+
+function searchDescription(stringToMatch) {
+  let descriptionString = witnesses.map(function (obj) {
+    if (obj.witness == stringToMatch) {
+      return obj.description;
+    } else {
+      return "";
+    }
+  });
+  return descriptionString;
 }
 
 //creates critical apparatus
@@ -110,9 +115,8 @@ let criticalApparatus = (value) => {
       });
     witnessesDescription = variation.witnesses.map((witness) => {
       //generating an array with the description of witnesses
-      return `<div><h2>${witness}</h2><p>${
-        search(witnesses, "witness", witness).description
-      }</p></div>`;
+      let description = searchDescription(witness);
+      return `<div><h2>${witness}</h2><p>${description.join("")}</p></div>`;
     });
 
     $(readingNumber).addClass("tooltipReference"); // adding a class to a tooltip reference (for decoration)
@@ -128,6 +132,9 @@ let criticalApparatus = (value) => {
       interactive: true,
       theme: "light-yellow",
       delay: [100, 250],
+    });
+    tippy("[data-tippy-content]", {
+      theme: "light-yellow",
     });
   });
 };
@@ -190,13 +197,11 @@ const chapterNameEng = [
   "Colophon",
 ];
 
-//description of witnesses
-
 const witnesses = [
   {
     witness: "K",
     description:
-      "This Burmese script palm-leaf manuscript is the oldest dated manuscript that I was able to obtain.  It is held at the Universities' Central Library in Yangon, Myanmar under accession number 3738. The library digitalised this and other manuscripts from their collection on my request and provided me with good quality images. The text comes in a bundle together with its newer commentary, the <i>Abhidhammatthavikāsinī</i>. The leaves are 51*6.5 cm in size and usually have ten lines of rather clear writing. The title in the upper right corner of recto sides is Abhi-āvjāko. A total of 51 leaves are numbered in the upper left corner of recto sides beginning with <i>ka</i> and ending with <i>ñe</i>. Even though being the oldest among available to me manuscripts it is abundant with mistakes, most frequent being <i>i</i> for <i>ī</i>, <i>ā</i> for <i>o</i>, <i>a</i> for <i>ā</i>, omission of syllables and <i>niggahīta</i>, <i>ṭ</i> for <i>ṭṭh</i>, sometimes <i>di</i> for <i>ti</i>, <i>tta</i> for <i>ttha</i>, and <i>ttha</i> for <i>tta</i>. Immediately after the text come first ten verses of the <i>Namakkārapāḷi</i>, which are followed by a colophon in Burmese stating that the copying of the commentary on abhidhamma was completed on the 1st day after the full moon of the tenth month in 1185 <i>Sakkarāja</i> year (1804).",
+      "This Burmese script palm-leaf manuscript is the oldest dated manuscript that I was able to obtain.  It is held at the Universities' Central Library in Yangon, Myanmar under accession number 3738. The library digitalised this and other manuscripts from their collection on my request and provided me with good quality images. The text comes in a bundle together with its newer commentary, the <i>Abhidhammatthavikāsinī</i>. The leaves are 51*6.5 cm in size and usually have ten lines of rather clear writing. The title in the upper right corner of recto sides is Abhidhammāvatārajāko. A total of 51 leaves are numbered in the upper left corner of recto sides beginning with <i>ka</i> and ending with <i>ñe</i>. Even though being the oldest among available to me manuscripts it is abundant with mistakes, most frequent being <i>i</i> for <i>ī</i>, <i>ā</i> for <i>o</i>, <i>a</i> for <i>ā</i>, omission of syllables and <i>niggahīta</i>, <i>ṭ</i> for <i>ṭṭh</i>, sometimes <i>di</i> for <i>ti</i>, <i>tta</i> for <i>ttha</i>, and <i>ttha</i> for <i>tta</i>. Immediately after the text come first ten verses of the <i>Namakkārapāḷi</i>, which are followed by a colophon in Burmese stating that the copying of the commentary on abhidhamma was completed on the 1st day after the full moon of the tenth month in 1185 <i>Sakkarāja</i> year (1804).",
   },
   {
     witness: "I",
@@ -211,7 +216,7 @@ const witnesses = [
   {
     witness: "B",
     description:
-      "Burmese script digitalized palm-leaf manuscript from U Pho Ti Library in Thaton, Mon State, Myanmar,  with identification number 761. It has been well described in <span data-tippy-content='Prutt, W., Y. Ousaka, and S. Kasamatsu (2019). Bristol: Pali Text Society.'>Prutt, Ousaka, and Kasamatsu (2019, p. 363).</span>. Most frequent mistakes are <i>ya</i> for <i>ra</i>, <i>bba</i> for <i>ppa</i> and <i>ppha</i>, the omission of <i>niggahita</i> and sometimes entire words. The text is followed by an unusual verse in Pāḷī `<i>vamitabbaṃ vamittayaṃ ramitabbañ ca taṃ buddhaṃ dhammamaggaṃ namāmataṃ mahitabbaṃ gaṇaṅ guruṃ</i>' followed by its <i>nissaya</i>, lengthy aspirations and the date of completing copying, which was the 4th day in the half-month of the waxing moon of the first month in 1224 <i>Sakkarāja</i> year (1862) (<span data-tippy-content='Prutt, W., Y. Ousaka, and S. Kasamatsu (2019). Bristol: Pali Text Society.'>Prutt, Ousaka, and Kasamatsu (2019, ibid.).</span>, however, records the date as 1242).",
+      "Burmese script digitalized palm-leaf manuscript from U Pho Ti Library in Thaton, Mon State, Myanmar,  with identification number 761. It has been well described in <span data-tippy-content='Prutt, W., Y. Ousaka, and S. Kasamatsu (2019). Bristol: Pali Text Society.'>Prutt, Ousaka, and Kasamatsu (2019, p. 363).</span> Most frequent mistakes are <i>ya</i> for <i>ra</i>, <i>bba</i> for <i>ppa</i> and <i>ppha</i>, the omission of <i>niggahita</i> and sometimes entire words. The text is followed by an unusual verse in Pāḷī `<i>vamitabbaṃ vamittayaṃ ramitabbañ ca taṃ buddhaṃ dhammamaggaṃ namāmataṃ mahitabbaṃ gaṇaṅ guruṃ</i>' followed by its <i>nissaya</i>, lengthy aspirations and the date of completing copying, which was the 4th day in the half-month of the waxing moon of the first month in 1224 <i>Sakkarāja</i> year (1862) (<span data-tippy-content='Prutt, W., Y. Ousaka, and S. Kasamatsu (2019). Bristol: Pali Text Society.'>Prutt, Ousaka, and Kasamatsu (2019, ibid.).</span>, however, records the date as 1242).",
   },
   {
     witness: "D",
@@ -251,7 +256,7 @@ const witnesses = [
   {
     witness: "C",
     description:
-      "Burmese script digitalized palm-leaf manuscript from Fragile Palm Leaves Project Works collection provided by Buddhist Digital Resource Center with identification number W1FPL640 <a href='http://purl.bdrc.io/resource/MW1FPL640' target='_blank'>tbrs.org</a>). Copied in 1905, it has share mistakes with <i>I} and adds more. Thus it must be either a descendant or a lower quality sibling of <i>I</i>. This was the reason for excluding it from the edition.",
+      "Burmese script digitalized palm-leaf manuscript from Fragile Palm Leaves Project Works collection provided by Buddhist Digital Resource Center with identification number W1FPL640 <a href='http://purl.bdrc.io/resource/MW1FPL640' target='_blank'>tbrs.org</a>). Copied in 1905, it has share mistakes with <i>I</i> and adds more. Thus it must be either a descendant or a lower quality sibling of <i>I</i>. This was the reason for excluding it from the edition.",
   },
   {
     witness: "J",

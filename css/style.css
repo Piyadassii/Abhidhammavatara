@@ -269,7 +269,7 @@ section {
 
 @media (max-width: 380px) {
   .logo {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .toggle-button {
     position: absolute;
@@ -284,8 +284,10 @@ section {
   h1 a {
     font-size: 1.4rem;
   }
+  ol {
+    padding-inline-start: 10px;
+  }
 }
-
 .logo:hover {
 }
 

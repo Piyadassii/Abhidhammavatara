@@ -14,6 +14,9 @@ function displayText(value) {
 //generates the text
 
 function textGenrator(value) {
+  if (pali[value] == undefined) {
+    return false;
+  }
   // append Chapter Title;
   $(".container").parents("section").addClass("text");
   let chapterName =
@@ -77,17 +80,14 @@ function tocBuilder() {
 
 //generate a chapter by click of the name of one in the TOC
 function navigateFromToc() {
-  window.addEventListener("load", function () {
-    $("#tableOfContents li").click(function () {
-      console.log($(this).prevAll().length);
-      let chapterNumber = $(this).prevAll().length;
-      $(".container").empty();
-      $(".container").removeClass("contents");
-      $(".text").removeClass("text");
-      textGenrator(chapterNumber);
-    });
+  $("#tableOfContents li").click(function () {
+    console.log($(this).prevAll().length);
+    let chapterNumber = $(this).prevAll().length;
+    $(".container").empty();
+    $(".container").removeClass("contents");
+    $(".text").removeClass("text");
+    textGenrator(chapterNumber);
   });
-}
 navigateFromToc();
 
 // searches for a description of a matching witness

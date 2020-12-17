@@ -88,8 +88,8 @@ function navigateFromToc() {
     $(".text").removeClass("text");
     textGenrator(chapterNumber);
   });
+}
 navigateFromToc();
-
 // searches for a description of a matching witness
 
 function searchDescription(stringToMatch) {

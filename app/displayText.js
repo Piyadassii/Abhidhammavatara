@@ -139,6 +139,10 @@ let criticalApparatus = (value) => {
   });
 };
 
+tippy("[data-tippy-content]", {
+  theme: "light-yellow",
+});
+
 //chapter names
 const chapterNamePali = [
   "Ganthārambhakathā",

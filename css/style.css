@@ -4,10 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua");
 
-/* @import url("/node_modules/tippy.js/themes/light.css");
+/*@import url("/node_modules/tippy.js/themes/light.css");
 @import url("/node_modules/tippy.js/themes/light-yellow.css");
-@import url("/node_modules/tippy.js/dist/tippy.css");
- */
+@import url("/node_modules/tippy.js/dist/tippy.css");*/
+
 *,
 *::before,
 *::after {
@@ -165,7 +165,6 @@ section {
   display: block;
   text-decoration: none;
   font-family: "Gentium Book Basic", serif;
-  /* text-transform: uppercase; */
   font-size: 1.7rem;
   color: white;
   font-weight: 400;
@@ -261,53 +260,31 @@ section {
   padding-left: 1.5rem;
 }
 
-@media (max-width: 450px) {
-  .logo {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 380px) {
-  .logo {
-    font-size: 1.7rem;
-  }
-  .toggle-button {
-    position: absolute;
-    top: 1.3rem;
-    left: 1rem;
-    /* display: none; */
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25px;
-    height: 21px;
-  }
-  h1 a {
-    font-size: 1.4rem;
-  }
-  ol {
-    padding-inline-start: 10px;
-  }
-}
 .logo:hover {
 }
 
 /* navigation bar ends */
 
 .text-choice {
-  /* position: fixed; */
+  position: relative;
   background-color: #e6e9e9;
   padding: 1rem;
   display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
+#info-icon {
+  position: absolute;
+  right: 32px;
+}
+
 #chapter-choice {
-  /* position: fixed; */
   background-color: #e6e9e9;
-  padding: 1rem;
+  gap: 0;
   display: flex;
   position: relative;
   justify-content: flex-end;
@@ -393,7 +370,7 @@ ol {
 [type="checkbox"]:checked + label {
   position: relative;
   padding-left: 1.5em;
-  padding-right: 1.5em;
+  /* padding-right: 1.5em; */
   cursor: pointer;
 }
 label[for="free"] {
@@ -472,6 +449,42 @@ label:hover:before {
   label[for="free"] {
     margin-bottom: 0.5rem;
   }
+  #info-icon {
+    bottom: 18px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    font-size: 1.7rem;
+  }
+  #info-icon {
+    bottom: 18px;
+    right: 5px;
+  }
+  .toggle-button {
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 21px;
+  }
+  h1 a {
+    font-size: 1.4rem;
+  }
+  ol {
+    padding-inline-start: 10px;
+  }
 }
 
 .content-choice {
@@ -531,37 +544,6 @@ footer img {
   height: auto;
   margin: 10px;
 }
-
-/* tooltip  */
-
-/* span.tooltip {
-  padding: 0 2px;
-  border-bottom: 1px dotted;
-  position: relative;
-}
-
-span.tooltip span {
-  display: inline-block;
-  font-size: 1rem;
-  position: absolute;
-  left: 15%;
-  top: -3rem;
-  padding: 5px;
-  color: #18314f00;
-  background-color: rgb(229, 215, 188, 0);
-  border-width: 1px;
-  border-radius: 4px;
-  z-index: 6;
-  transition-duration: 200ms;
-}
-
-span.tooltip:focus span,
-span.tooltip:active span,
-span.tooltip:hover span {
-  color: #18314f;
-  background: rgba(229, 215, 188, 1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-} */
 
 .references li {
   list-style: square;

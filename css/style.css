@@ -289,7 +289,9 @@ section {
 
 #info-icon {
   position: absolute;
+  bottom: 18px;
   right: 32px;
+  margin: 0;
 }
 
 #chapter-choice {

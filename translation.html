@@ -4,7 +4,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="/Abhidhammavatara/css/style.css">
-    <link rel="stylesheet" href="/Abhidhammavatara/css/select.css" />
+    <link rel="stylesheet" href="/Abhidhammavatara/css/light-yellow.css">
+    <link rel="stylesheet" href="/Abhidhammavatara/css/select.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -30,40 +31,37 @@
   </label>
 
     <div class="text-choice">
-      <input type="checkbox" id="pali" name="pali" checked onclick="handleOnChange(this, 'pali')" >
-      <label for="pali">Original</label>
-      <input type="checkbox" id="lit" name="lit" checked onclick="handleOnChange(this, 'lit')">
-      <label for="lit">Literal Translation</label>
-      <input type="checkbox" id="free" name="free" checked onclick="handleOnChange(this, 'free')">
+      <input type="checkbox" id="original" name="original" checked onclick="handleOnChange(this, '#original', '.pali')" >
+      <label for="original">Original</label>
+      <input type="checkbox" id="literal" name="literal" checked onclick="handleOnChange(this, '#literal', '.lit')">
+      <label for="literal">Literal Translation</label>
+      <input type="checkbox" id="free" name="free" checked onclick="handleOnChange(this, '#free', '.free')">
       <label for="free">Free Translation</label>
       <select id="chapter-choice">
         <option value="nill">Go to chapter</option>
         <option value="0">Ganthārambhakathā</option>
         <option value="1">1. Citta-niddeso</option>
-        <option value="25">Nigamanakathā</option>
+        <option value="2">2. Cetasika-niddeso</option>
+        <option value="3">3. Cetasikavibhāga-niddeso</option>
       </select>
       <img id="info-icon" src="/Abhidhammavatara/images/info_icon3.svg" alt='info icon' width = '32' height = '32' data-tippy-content = "In italics is the critical edition of the Pāli text with variant locations indicated by a dotted line. To see variants, hover over or touch a variant location. Clicking the witnesses will reveal information about them. The brown colored English text is the source-oriented (so called 'literal') translation, with annotations, which are displayed when highligted text is clicked. Gray colored text is a target-oriented (so called 'free') translation. You can select what you would like to be displayed by toggling corresponding checkboxes." >
     </div>
-   
     <section>
       <div class="container" id="text"></div>
     </section>
      <footer><img src="/Abhidhammavatara/images/manuscript_title_small.png" alt=""></footer>
      <!-- scripts -->
      <!-- tooltip -->
-     <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-     <!-- <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script> -->
+<!--      <script src="/Abhidhammavatara/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/Abhidhammavatara/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script> -->
 <!-- local -->
-    <script src="/Abhidhammavatara/app/data.js"></script>
-    <script src="/Abhidhammavatara/app/notes.js"></script>
-    <script src="/Abhidhammavatara/app/texts.js"></script>
      <script src="/Abhidhammavatara/app/displayText.js"></script>
      <script src="/Abhidhammavatara/app/nav.js"></script>
      <script src="/Abhidhammavatara/app/select.js"></script>
-     <script src="/Abhidhammavatara/app/checkBox.js"></script>
+    <script src="/Abhidhammavatara/app/checkBox.js"></script>
      
   </body>
 </html>

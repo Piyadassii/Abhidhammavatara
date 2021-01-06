@@ -1,16 +1,15 @@
 let changeValue;
-const handleOnChange = (e, id, className) => {
+const handleOnChange = (e, name) => {
   let check = true;
   changeValue = !check;
   if (e.checked) {
-    checkBox(id, className);
+    checkBox(name);
   } else {
-    checkBox(id, className);
+    checkBox(name);
   }
+  adjustWidth();
 };
 
-const checkBox = (id, className) => {
-  $(`${id}`).is(":checked")
-    ? $(`${className}`).show()
-    : $(`${className}`).hide();
+const checkBox = (a) => {
+  $(`#${a}`).is(":checked") ? $(`.${a}`).show() : $(`.${a}`).hide();
 };

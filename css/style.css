@@ -332,13 +332,14 @@ ol {
   margin-bottom: 0px;
 }
 
-.contents li:nth-child(n + 3),
-.contents li:nth-child(n + 3) > ul > li {
+.contents li:nth-child(n + 3):nth-child(-n + 25),
+.contents li:nth-child(n + 3):nth-child(-n + 25) > ul > li {
   color: gray;
 }
 
-.contents li:nth-child(1),
-.contents li:nth-child(2) {
+.contents ol > li:nth-child(1),
+.contents li:nth-child(2),
+.contents li:nth-child(26) {
   cursor: pointer;
 }
 
@@ -363,6 +364,10 @@ ol {
 .free {
   flex-basis: 45%;
   color: rgb(100, 100, 100);
+}
+
+.flex-wide {
+  flex-basis: 70%;
 }
 /* checkboxes */
 /* Base for label styling */
@@ -494,6 +499,18 @@ label:hover:before {
   }
   ol {
     padding-inline-start: 10px;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 12px;
+  }
+  #text p {
+    min-width: 260px;
+  }
+  #info-icon {
+    top: 10px;
   }
 }
 

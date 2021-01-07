@@ -27,14 +27,24 @@ body {
   font-size: 1.5rem;
 }
 
+p,
+label {
+  font-size: clamp(1.25rem, 2.3vw, 1.5rem);
+}
+
 i {
   font-family: "Gentium Book Basic", serif;
-  font-size: 1.4rem;
+  font-size: clamp(1.18rem, 1.9vw, 1.4rem);
+}
+
+.content-choice {
+  font-size: clamp(1rem, 2.3vw, 1.4rem);
 }
 
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  text-align: center;
   color: #0b788f;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -47,7 +57,7 @@ h1 {
 h2 {
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 1.35vw, 1.2rem);
   margin-bottom: 3em;
   letter-spacing: 8px;
   text-align: center;
@@ -57,12 +67,12 @@ h2 {
 
 .references {
   position: relative;
-  font-size: 1.3rem;
+  font-size: clamp(1.18rem, 1.8vw, 1.3rem);
   margin-top: 6rem;
 }
 
 .references i {
-  font-size: 1.2rem;
+  font-size: clamp(1.1rem, 1.7vw, 1.25rem);
 }
 
 .img--cut {
@@ -107,6 +117,7 @@ section {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   width: 80%;
+  max-width: 1200px;
   margin: 50px auto;
   padding: 50px;
   padding-bottom: 150px;
@@ -124,9 +135,6 @@ section {
     line-height: 1;
     font-weight: 400;
     margin: 3em 0;
-  }
-  .content-choice {
-    font-size: 1rem;
   }
 }
 
@@ -179,7 +187,7 @@ section {
 
 .toggle-button {
   position: absolute;
-  top: 1.6rem;
+  top: 1.3rem;
   left: 1rem;
   display: none;
   flex-direction: column;
@@ -251,7 +259,7 @@ section {
   color: white;
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 2.3rem;
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
   margin: 0;
   margin-right: 2px;
   padding-top: 1.15rem;
@@ -470,16 +478,7 @@ label:hover:before {
   }
 }
 
-@media (max-width: 450px) {
-  .logo {
-    font-size: 2rem;
-  }
-}
-
 @media (max-width: 380px) {
-  .logo {
-    font-size: 1.7rem;
-  }
   #info-icon {
     bottom: 18px;
     right: 5px;
@@ -494,18 +493,12 @@ label:hover:before {
     width: 25px;
     height: 21px;
   }
-  h1 a {
-    font-size: 1.4rem;
-  }
   ol {
     padding-inline-start: 10px;
   }
 }
 
 @media (max-width: 330px) {
-  html {
-    font-size: 12px;
-  }
   #text p {
     min-width: 260px;
   }
@@ -540,11 +533,6 @@ label:hover:before {
   padding-top: 20px;
   padding: 20px;
   margin-bottom: 60px;
-}
-
-h1 {
-  font-size: 1.5rem;
-  text-align: center;
 }
 
 section::after {

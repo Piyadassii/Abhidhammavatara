@@ -4,15 +4,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua");
 
-/*@import url("/node_modules/tippy.js/themes/light.css");
-@import url("/node_modules/tippy.js/themes/light-yellow.css");
-@import url("/node_modules/tippy.js/dist/tippy.css");*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+
+/* @import url("/css/light.css");
+@import url("/css/light-yellow.css"); */
+/* @import url("/css/tippy.css"); */
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin-top: 0;
+  margin: 0;
 }
 
 html {
@@ -28,8 +30,18 @@ body {
 }
 
 p,
-label {
+label,
+.pali,
+.lit,
+.free {
   font-size: clamp(1.25rem, 2.3vw, 1.5rem);
+  margin-bottom: 1rem;
+}
+
+.article-body > ul {
+  font-size: clamp(1.25rem, 2.3vw, 1.5rem);
+  list-style: none;
+  margin-bottom: 1rem;
 }
 
 i {
@@ -48,21 +60,50 @@ h1 {
   color: #0b788f;
   text-transform: uppercase;
   letter-spacing: 10px;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 400;
   margin: 3em 0;
+  /* margin-top: 9.5rem; */
   flex-basis: 90%;
 }
 
 h2 {
   font-weight: 400;
   text-transform: uppercase;
-  font-size: clamp(0.85rem, 1.35vw, 1.2rem);
-  margin-bottom: 3em;
-  letter-spacing: 8px;
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  margin-top: 3rem;
+  margin-bottom: 2em;
+  letter-spacing: 5px;
   text-align: center;
   color: #0b788f;
   flex-basis: 90%;
+}
+
+#text > h2 {
+  margin-top: 0;
+}
+
+#text > h1 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  margin-top: 3rem;
+  margin-bottom: 2em;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #0b788f;
+  flex-basis: 90%;
+}
+
+h4 {
+  text-align: center;
+  font-size: clamp(1.1rem, 1.75vw, 1.4rem);
+  margin-top: 3rem;
+  margin-bottom: 2em;
 }
 
 .references {
@@ -71,29 +112,47 @@ h2 {
   margin-top: 6rem;
 }
 
+.lit > h3 {
+  margin-top: 0;
+}
+
+.pali > h2,
+.pali > h3 {
+  margin-bottom: 0;
+  font-style: normal;
+}
+
 .references i {
   font-size: clamp(1.1rem, 1.7vw, 1.25rem);
 }
 
-.img--cut {
-  object-position: center;
+.img-float-left {
+  clear: right;
+  float: left;
+  margin: 10px;
+  display: inline-block;
+  max-width: 260px;
 }
 
-.img-wrapper {
+/* .img--cut {
+  object-position: center;
+} */
+
+/* .img-wrapper {
   height: 400px;
   width: 100%;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow-x: auto;
   overflow-y: auto;
-  /* white-space: nowrap; */
+ 
 }
 .img-wrapper > img {
   position: relative;
   display: block;
   height: 400%;
   width: auto;
-}
+} */
 
 .references::before {
   content: "";
@@ -117,24 +176,30 @@ section {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 50px auto;
-  padding: 50px;
+  padding: 2rem;
   padding-bottom: 150px;
+}
+
+section > a.section-link {
+  position: absolute;
+  top: -5rem;
 }
 
 @media (max-width: 800px) {
   section {
     width: 95%;
-    padding: 20px;
+    padding: 5%;
     padding-bottom: 150px;
-    margin: 20px auto;
+    margin: 5% auto;
   }
   h1 {
     letter-spacing: 3px;
     line-height: 1;
     font-weight: 400;
-    margin: 3em 0;
+    margin: 3rem 0;
+    /* margin-top: 6rem; */
   }
 }
 
@@ -280,6 +345,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   --gap: 2rem;
@@ -296,6 +362,7 @@ section {
   bottom: 18px;
   right: 32px;
   margin: 0;
+  cursor: help;
 }
 
 #chapter-choice {
@@ -317,7 +384,7 @@ section.text {
   padding: 15px;
 }
 @media (max-width: 420px) {
-  #text p {
+  #text > div {
     min-width: 280px;
   }
 }
@@ -363,6 +430,7 @@ ol {
   font-style: italic;
   flex-basis: 70%;
   padding-left: 10%;
+  margin-top: 1.8rem;
 }
 
 .lit {
@@ -499,7 +567,7 @@ label:hover:before {
 }
 
 @media (max-width: 330px) {
-  #text p {
+  #text > div {
     min-width: 260px;
   }
   #info-icon {
@@ -513,20 +581,33 @@ label:hover:before {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  align-items: baseline;
 }
 
 .content-choice {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
-.content-choice a {
+.content-choice span {
   color: #003742;
 }
 
-.content-choice a:hover {
+.content-choice span:hover {
   color: #837a51;
+}
+
+.fixed-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+section.shifted-down {
+  margin-top: 8.4rem;
 }
 
 .article {
@@ -639,8 +720,149 @@ a.ref {
 /* tippy */
 
 .tooltipReference,
-span[data-tippy-content] {
+span[data-tippy-content],
+span[data-critical-note] {
   border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tippy-box[data-animation="fade"][data-state="hidden"] {
+  opacity: 0;
+}
+[data-tippy-root] {
+  max-width: calc(100vw - 10px);
+}
+.tippy-box {
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  outline: 0;
+  transition-property: transform, visibility, opacity;
+}
+.tippy-box i {
+  font-size: 13px;
+}
+
+.tippy-box[data-placement^="top"] > .tippy-arrow {
+  bottom: 0;
+}
+.tippy-box[data-placement^="top"] > .tippy-arrow:before {
+  bottom: -7px;
+  left: 0;
+  border-width: 8px 8px 0;
+  border-top-color: initial;
+  transform-origin: center top;
+}
+.tippy-box[data-placement^="bottom"] > .tippy-arrow {
+  top: 0;
+}
+.tippy-box[data-placement^="bottom"] > .tippy-arrow:before {
+  top: -7px;
+  left: 0;
+  border-width: 0 8px 8px;
+  border-bottom-color: initial;
+  transform-origin: center bottom;
+}
+.tippy-box[data-placement^="left"] > .tippy-arrow {
+  right: 0;
+}
+.tippy-box[data-placement^="left"] > .tippy-arrow:before {
+  border-width: 8px 0 8px 8px;
+  border-left-color: initial;
+  right: -7px;
+  transform-origin: center left;
+}
+.tippy-box[data-placement^="right"] > .tippy-arrow {
+  left: 0;
+}
+.tippy-box[data-placement^="right"] > .tippy-arrow:before {
+  left: -7px;
+  border-width: 8px 8px 8px 0;
+  border-right-color: initial;
+  transform-origin: center right;
+}
+.tippy-box[data-inertia][data-state="visible"] {
+  transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+}
+.tippy-arrow {
+  width: 16px;
+  height: 16px;
+  color: #333;
+}
+.tippy-arrow:before {
+  content: "";
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+}
+.tippy-content {
+  position: relative;
+  padding: 5px 9px;
+  z-index: 1;
+}
+
+/* tippy light-yellow */
+
+.tippy-box[data-theme~="light-yellow"] {
+  color: #26323d;
+  box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15),
+    0 4px 80px -8px rgba(36, 40, 47, 0.25),
+    0 4px 4px -2px rgba(91, 94, 105, 0.15);
+  background-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"][data-placement^="top"]
+  > .tippy-arrow:before {
+  border-top-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"][data-placement^="bottom"]
+  > .tippy-arrow:before {
+  border-bottom-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"][data-placement^="left"]
+  > .tippy-arrow:before {
+  border-left-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"][data-placement^="right"]
+  > .tippy-arrow:before {
+  border-right-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"] > .tippy-backdrop {
+  background-color: rgb(255, 242, 206);
+}
+.tippy-box[data-theme~="light-yellow"] > .tippy-svg-arrow {
+  fill: rgb(255, 242, 206);
+}
+
+/* tippy light */
+
+.tippy-box[data-theme~="light"] {
+  color: #26323d;
+  box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15),
+    0 4px 80px -8px rgba(36, 40, 47, 0.25),
+    0 4px 4px -2px rgba(91, 94, 105, 0.15);
+  background-color: #fff;
+}
+.tippy-box[data-theme~="light"][data-placement^="top"] > .tippy-arrow:before {
+  border-top-color: #fff;
+}
+.tippy-box[data-theme~="light"][data-placement^="bottom"]
+  > .tippy-arrow:before {
+  border-bottom-color: #fff;
+}
+.tippy-box[data-theme~="light"][data-placement^="left"] > .tippy-arrow:before {
+  border-left-color: #fff;
+}
+.tippy-box[data-theme~="light"][data-placement^="right"] > .tippy-arrow:before {
+  border-right-color: #fff;
+}
+.tippy-box[data-theme~="light"] > .tippy-backdrop {
+  background-color: #fff;
+}
+.tippy-box[data-theme~="light"] > .tippy-svg-arrow {
+  fill: #fff;
 }
 
 /* witness classes colors */
@@ -651,50 +873,305 @@ a.ref.witnesses {
 
 .witnessA {
   color: teal;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 span.witnessB {
   color: cornflowerblue;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessC {
   color: tomato;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessD {
   color: blueviolet;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessE {
   color: olivedrab;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessF {
   color: yellowgreen;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessG {
   color: rgb(211, 197, 0);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessH {
   color: orange;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessI {
   color: palevioletred;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessK {
   color: turquoise;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .witnessPTS {
   color: blue;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .witnessCS {
   color: red;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+}
+
+/* modal window */
+
+.vmodal.open .modal-overlay,
+.vmodal.open .modal-window {
+  opacity: 1;
+  z-index: 1000;
+}
+
+.vmodal.hide .modal-overlay,
+.vmodal.hide .modal-window {
+  opacity: 1;
+  z-index: 1000;
+}
+
+.vmodal.hide .modal-window {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.vmodal.hide .modal-overlay {
+  background: rgba(0, 0, 0, 0);
+}
+
+.vmodal.open .modal-window {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.vmodal.open .modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-window,
+.modal-overlay {
+  opacity: 0;
+  z-index: -1;
+}
+
+[data-note] {
+  background-color: #0261741a;
+  border-radius: 4px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.4s ease;
+}
+
+.modal-window {
+  /* width: 600px; */
+  /* border-radius: 5px; */
+  background: #fff;
+
+  min-height: 5rem;
+  margin: 20% auto;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.modal-header {
+  padding: 0 0.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close {
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 0rem 2rem 2rem;
+}
+
+.modal-body p {
+  padding: 2rem;
+}
+
+.article-header {
+  cursor: pointer;
+}
+
+.article-header.active {
+  /* background-color: white; */
+  font-weight: 700;
+}
+
+/* tabs  */
+
+.tab-head {
+  background-color: #e6e9e9;
+  /* display: grid; */
+  font-size: clamp(1rem, 2.3vw, 1.4rem);
+  color: #003742;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 -5.7%;
+
+  /* grid-template-columns: repeat(4, 1fr); */
+
+  /* justify-content: space-around; */
+}
+
+.tab-title {
+  /* border: 1px solid black; */
+
+  /* padding: 1rem; */
+  /* padding-left: 2rem; */
+}
+.tab-content {
+  display: none;
+}
+
+.tab-active {
+  display: block;
+}
+.tab-title.tab-active {
+  border-bottom: none;
+  background-color: #003742;
+  color: white;
+  padding: 0 1rem;
+  /* font-size: clamp(1.7rem, 2.7vw, 1.9rem); */
+}
+a[href="#navbar"] {
+  position: absolute;
+  padding-top: 0.1rem;
+  right: 3%;
+  height: 0.6rem;
+  width: 0.8rem;
+  /* top: 8.2rem; */
+}
+
+/* a[href="#translation"]::after {
+  content: url("/Abhidhammavatara/images/angle-double-up.svg");
+  position: absolute;
+  right: 1rem;
+  height: 0.8rem;
+  width: 0.8rem;
+  color: red;
+} */
+
+.pdf-link::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f1c1";
+  /* color: blue; */
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.arrow {
+  cursor: pointer;
+  position: relative;
+}
+.article-body {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrow::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+  color: var(--color);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  bottom: -0.2rem;
+  left: 1rem;
+  transition: transform 300ms ease-in-out;
+}
+
+/* location arrow unicode f124 */
+
+.arrow.rotate::before {
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0.2rem;
+  transition: transform 300ms ease-in-out;
+}
+
+a[href="#navbar"]::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3bf";
+  color: rgba(42, 112, 137, 0.3);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.testimonia::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: clamp(1.18rem, 1.9vw, 1.4rem);
+  content: "\f124";
+  color: rgba(100, 47, 47, 0.5);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tippy-content > .testimonia::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  content: "\f124";
+  color: rgba(100, 47, 47, 0.5);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tippy-content > .testimonia
+
+{
+  border-bottom: none;
+  cursor: text;
+}
+
+span.testimonia {
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.annotation[data-tippy-content] {
+  background-color: rgba(109, 190, 201, 0.137);
+  border-bottom: none;
 }

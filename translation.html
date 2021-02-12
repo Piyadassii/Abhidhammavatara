@@ -2,12 +2,22 @@
 <html lang="en">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./app/jquery-3.5.1.slim.js"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="/Abhidhammavatara/css/style.css">
     <link rel="stylesheet" href="/Abhidhammavatara/css/light-yellow.css">
     <link rel="stylesheet" href="/Abhidhammavatara/css/select.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="">tippy("[data-critical-note]", {
+      theme: "light-yellow",
+      interactive: true,
+      allowHTML: true,
+      trigger: "click",
+      content(reference) {
+        const note = reference.getAttribute("data-critical-note");
+        return note;
+      }});</script>
     
     <title>Abhidhammāvatāra</title>
   </head>
@@ -43,7 +53,7 @@
         <option value="1">1. Citta-niddeso</option>
         <option value="25">Nigamanakathā</option>
       </select>
-      <img id="info-icon" src="/Abhidhammavatara/images/info_icon3.svg" alt='info icon' width = '32' height = '32' data-tippy-content = "In italics is the critical edition of the Pāli text with variant locations indicated by a dotted line. To see variants, hover over or touch a variant location. Clicking the witnesses will reveal information about them. The brown colored English text is the source-oriented (so called 'literal') translation, with annotations, which are displayed when highligted text is clicked. Gray colored text is a target-oriented (so called 'free') translation. You can select what you would like to be displayed by toggling corresponding checkboxes." >
+      <img id="info-icon" src="/Abhidhammavatara/images/info_icon3.svg" alt='info icon' width = '32' height = '32' data-critical-note = "In italics is the critical edition of the Pāli text with variant locations indicated by a dotted line. To see a variant, click the variant location. <span class='testimonia'></span> indicates a reference to the passages parallel to the text. The brown colored English text is the source-oriented (so called 'literal') translation, with annotations, which are displayed when highligted text is clicked. Gray colored text is a target-oriented (so called 'free') translation. You can select what you would like to be displayed by toggling corresponding checkboxes." >
     </div>
    
     <section>
@@ -58,13 +68,17 @@
      <!-- <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script> -->
 <!-- local -->
+
     <script src="/Abhidhammavatara/app/data.js"></script>
     <script src="/Abhidhammavatara/app/notes.js"></script>
     <script src="/Abhidhammavatara/app/texts.js"></script>
+    <script src="/Abhidhammavatara/app/modal.js"></script>
      <script src="/Abhidhammavatara/app/displayText.js"></script>
      <script src="/Abhidhammavatara/app/nav.js"></script>
      <script src="/Abhidhammavatara/app/select.js"></script>
      <script src="/Abhidhammavatara/app/checkBox.js"></script>
      
+     
   </body>
 </html>
+

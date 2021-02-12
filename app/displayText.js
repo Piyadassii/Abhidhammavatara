@@ -14,9 +14,9 @@ function displayText(value) {
 //generates the text
 
 function textGenrator(value) {
-  if (pali[value] == undefined) {
+  if (theText[value][0].pali == undefined) {
     return false;
-    // preventDefault();
+  //   // preventDefault();
   }
   // append Chapter Title;
   $(".container").parents("section").addClass("text");
@@ -25,23 +25,32 @@ function textGenrator(value) {
     `<h2> ${chapterNameEng[value]}</h2>`;
   $(".container").append(chapterName);
   // append the text
-  for (let i = 0; i < pali[value].length; i++) {
-    textPali = `<p class="pali"> ${pali[value][i]}</p>`;
-    textLit = `<p class="lit"> ${lit[value][i]}</p>`;
-    free[value][i] == ""
-      ? (textFree = `<p class="free same-as-lit"> ${lit[value][i]}</p>`) // if free translation is the same as literal, dublicate it
-      : (textFree = `<p class="free"> ${free[value][i]}</p>`);
-    $(".container").append(textPali + textLit + textFree);
-  }
+  const $text = theText[value].map((text) => {
+    textPali = `<div class="pali"> ${text.pali}</div>`;
+    textLit = `<div class="lit"> ${text.lit}</div>`;
+    text.free == "" || undefined
+      ? (textFree = `<div class="free same-as-lit"> ${text.lit}</div>`) // if free translation is the same as literal, dublicate it
+      : (textFree = `<div class="free"> ${text.free}</div>`);
 
-  //append the notes
+    return textPali + textLit + textFree;
+  });
+  $(".container").append($text.join(""));
 
-  for (let i = 0; i < notesPali[value].length; i++) {
-    noteBlockBuilder(notesPali[value][i], i, "Pali");
-  }
-  for (let i = 0; i < notesLit[value].length; i++) {
-    noteBlockBuilder(notesLit[value][i], i, "Lit");
-  }
+  //modal window with notes
+
+  // $("[data-note]").click((event) => {
+  //   const noteNumber = +event.target.dataset.note;
+  //   const noteKind = event.target.dataset.textKind;
+  //   const note = notesToTrans.find(
+  //     (f) => f.chapter === value && f.id === noteNumber && f.text === noteKind
+  //   );
+  //   familiarNoteModal.setContent(`<div>${note.note}</div>`);
+  //   familiarNoteModal.open();
+  //   tippy("[data-tippy-content]", {
+  //     theme: "light-yellow",
+  //     allowHTML: true,
+  //   });
+  // });
 
   // generate critical apparatus
 
@@ -60,18 +69,18 @@ function textGenrator(value) {
 
 // builds a div with notes
 
-function noteBlockBuilder(note, noteNumber, section) {
-  let noteBlock = `<div id='note${section}${noteNumber}' class='popup'>
-    <a href="#anchor" class="popup_area"></a>
-    <div class='popup_body'>
-        <div class='popup_content'>
-            <a href='#anchor' class='popup_close'>&times;</a>
-            <div class='popup_text'>${note}</div>
-        </div>
-    </div>
-  </div>`;
-  $(".container").append(noteBlock);
-}
+// function noteBlockBuilder(note, noteNumber, section) {
+//   let noteBlock = `<div id='note${section}${noteNumber}' class='popup'>
+//     <a href="#anchor" class="popup_area"></a>
+//     <div class='popup_body'>
+//         <div class='popup_content'>
+//             <a href='#anchor' class='popup_close'>&times;</a>
+//             <div class='popup_text'>${note}</div>
+//         </div>
+//     </div>
+//   </div>`;
+//   $(".container").append(noteBlock);
+// }
 
 // builds a table of contents
 
@@ -114,43 +123,116 @@ function searchDescription(stringToMatch) {
 
 //creates critical apparatus
 
+// let criticalApparatus = (value) => {
+//   readings[value].forEach((variation, variationNumber) => {
+//     let readingNumber = "#reading" + variationNumber,
+//       witnessesHTML = variation.witnesses.map((witness) => {
+//         //an array of witness with each one having its own class
+//         let witnessClass = "witness" + witness;
+//         return `<span class="${witnessClass}" data-witness-description>${witness} </span>`;
+//       });
+//     witnessesDescription = variation.witnesses.map((witness) => {
+//       //generating an array with the description of witnesses
+//       let description = searchDescription(witness);
+//       return `<div><h2>${witness}</h2><p>${description.join("")}</p></div>`;
+//     });
+
+//     $(readingNumber).addClass("tooltipReference"); // adding a class to a tooltip reference (for decoration)
+//     let tooltipReadingContent =
+//       // `<a href='#noteWitnesses${variationNumber}' class='ref witnesses'>
+//       `<span>
+//     ${witnessesHTML.join("")}</span> ${variation.reading}`;
+//     witnessesDescriptionBlock = witnessesDescription.join("");
+
+//     noteBlockBuilder(witnessesDescriptionBlock, variationNumber, "Witnesses"); // building a div with witness description
+//     tippy(readingNumber, {
+//       // initiating a tippy
+//       content: tooltipReadingContent,
+//       trigger: "click",
+//       allowHTML: true,
+//       interactive: true,
+//       theme: "light-yellow",
+//       delay: [100, 250],
+//     });
+//     tippy("[data-tippy-content]", {
+//       theme: "light-yellow",
+//     });
+//   });
+// };
+
 let criticalApparatus = (value) => {
-  readings[value].forEach((variation, variationNumber) => {
-    let readingNumber = "#reading" + variationNumber,
-      witnessesHTML = variation.witnesses.map((witness) => {
-        //an array of witness with each one having its own class
-        let witnessClass = "witness" + witness;
-        return `<span class="${witnessClass}">${witness} </span>`;
-      });
-    witnessesDescription = variation.witnesses.map((witness) => {
-      //generating an array with the description of witnesses
-      let description = searchDescription(witness);
-      return `<div><h2>${witness}</h2><p>${description.join("")}</p></div>`;
+  const witnessDescriptionArray = [];
+  readings[value].map((reading, readingNumber) => {
+    // const witnessHTML = reading.witnesses
+    //   .map((witness) => {
+    //     return `<span class='witness${witness} data-witness = ${readingNumber}'>${witness} </span>`;
+    //   })
+    //   .join("");
+
+    const entries = reading.readings
+      .map((entry) => {
+        const reading = entry.reading,
+          $witnesses = entry.wit
+            .map((witness) => {
+              return `<span class='witness${witness}' data-witness = '${readingNumber}'>${witness} </span>`;
+            })
+            .join("");
+        return `<br><span>${reading} </span><span class="witnessesSet">${$witnesses}</span>`;
+      })
+      .join("");
+
+    const entryWitDescription = reading.readings.map((entry) => {
+      const allWitDescription = entry.wit
+        .map((witness) => {
+          return `<h2>${witness}</h2><p>${searchDescription(witness).join(
+            ""
+          )}</p>`;
+        })
+        .join("");
+      // console.log(allWitDescription);
+      return allWitDescription;
     });
 
-    $(readingNumber).addClass("tooltipReference"); // adding a class to a tooltip reference (for decoration)
-    let tooltipReadingContent = `<a href='#noteWitnesses${variationNumber}' class='ref witnesses'>${witnessesHTML.join(
-      ""
-    )}</a> ${variation.reading}`;
-    witnessesDescriptionBlock = witnessesDescription.join("");
-    noteBlockBuilder(witnessesDescriptionBlock, variationNumber, "Witnesses"); // building a div with witness description
-    tippy(readingNumber, {
-      // initiating a tippy
-      content: tooltipReadingContent,
-      allowHTML: true,
-      interactive: true,
-      theme: "light-yellow",
-      delay: [100, 250],
-    });
-    tippy("[data-tippy-content]", {
-      theme: "light-yellow",
-    });
+    const positiveWitnessesHTML = reading.positiveWitnesses
+      .map((witness) => {
+        return `<span class='witness${witness} data-witness = ${readingNumber}'>${witness} </span>`;
+      })
+      .join("");
+
+    const positiveWitnessesDescription = reading.positiveWitnesses.map(
+      (witness) => {
+        return `<h2>${witness}</h2><p>${searchDescription(witness).join(
+          ""
+        )}</p>`;
+      }
+    );
+
+    criticalNote = `<span><b>${reading.lemma} </span><span class="witnessesSet" >${positiveWitnessesHTML}</b>:</span>${entries} `;
+
+    $(`#reading${readingNumber}`).attr(
+      "data-critical-note",
+      `<span class = 'variant'>${criticalNote}</span>`
+    );
+  });
+
+  tippy("[data-critical-note]", {
+    theme: "light-yellow",
+    interactive: true,
+    allowHTML: true,
+    trigger: "click",
+    content(reference) {
+      const note = reference.getAttribute("data-critical-note");
+      return note;
+    },
+    
   });
 };
 
-tippy("[data-tippy-content]", {
-  theme: "light-yellow",
-});
+// tippy("[data-tippy-content]", {
+//   theme: "light-yellow",
+// });
+
+
 
 const adjustWidth = () => {
   if (document.querySelector(".flex-wide") != undefined) {

@@ -44,7 +44,7 @@ label,
   margin-bottom: 1rem;
 }
 
-i {
+em {
   font-family: "Gentium Book Basic", serif;
   font-size: clamp(1.18rem, 1.9vw, 1.4rem);
 }
@@ -122,9 +122,9 @@ h4 {
   font-style: normal;
 }
 
-.references i {
+/* .references em {
   font-size: clamp(1.1rem, 1.7vw, 1.25rem);
-}
+} */
 
 .img-float-left {
   clear: right;
@@ -176,7 +176,7 @@ section {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   width: 80%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 50px auto;
   padding: 2rem;
   padding-bottom: 150px;
@@ -742,7 +742,7 @@ span[data-critical-note] {
   outline: 0;
   transition-property: transform, visibility, opacity;
 }
-.tippy-box i {
+.tippy-box em {
   font-size: 13px;
 }
 

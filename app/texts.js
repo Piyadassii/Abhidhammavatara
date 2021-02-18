@@ -23,9 +23,9 @@ const theText = [
       pali:
         "4. <span id='reading1'>tatthāhaṃ</span> pāṭavatthāya bhikkhūnaṃ piṭakuttame<br>abhidhammāvatāran tu madhuraṃ mativaḍḍhanaṃ",
       lit:
-        "4. for the sake of monks’ skilfulness in the highest <i>piṭaka</i> `The Introduction to Abhidhamma', which is sweet, and results in the growth of wisdom,	",
+        "4. for the sake of monks’ skilfulness in the highest <em>piṭaka</em> `The Introduction to Abhidhamma', which is sweet, and results in the growth of wisdom,	",
       free:
-        "4. The Abhidhammāvatāra, sweet, enhancing the wisdom,<br>is for furtherance of monks’ skill in preeminent <i>piṭaka</i>.",
+        "4. The Abhidhammāvatāra, sweet, enhancing the wisdom,<br>is for furtherance of monks’ skill in preeminent <em>piṭaka</em>.",
     },
 
     {
@@ -61,34 +61,34 @@ const theText = [
       pali:
         "8. cittaṃ cetasikaṃ rūpaṃ nibbānan ti niruttaro<br>catudhā desayī dhamme catusaccappakāsano.",
       lit:
-        "8. The Unsurpassed One who made known the four noble truths taught four dhammas: consciousness, mental factors, matter and <i>nibbāna</i>.",
+        "8. The Unsurpassed One who made known the four noble truths taught four dhammas: consciousness, mental factors, matter and <em>nibbāna</em>.",
       free:
-        "8. The one who showed the four ennobling truths,<br>the Unsurpassed One taught four dhammas:<br><i>citta</i> or consciousness, <i>cetasika</i> – mental factors, <i>rūpa</i> or matter, and <i>nibbāna</i>.",
+        "8. The one who showed the four ennobling truths,<br>the Unsurpassed One taught four dhammas:<br><em>citta</em> or consciousness, <em>cetasika</em> – mental factors, <em>rūpa</em> or matter, and <em>nibbāna</em>.",
     },
 
     {
       pali:
-        "tattha cittan 'ti visayavijānanaṃ cittaṃ. tassa pana ko vacanattho? vuccate: sabbasaṅgāhakavasena  pana cintetī ti cittaṃ. attasantānaṃ vā cinotī ti pi cittaṃ.<span class='testimonia' data-critical-note='<i>cf.</i> As 63 <sub>31-4</sub>.'></span>[2]",
+        "tattha cittan 'ti visayavijānanaṃ cittaṃ. tassa pana ko vacanattho? vuccate: sabbasaṅgāhakavasena  pana cintetī ti cittaṃ. attasantānaṃ vā cinotī ti pi cittaṃ.<span class='testimonia' data-critical-note='<em>cf.</em> As 63 <sub>31-4</sub>.'></span>[2]",
       lit:
-        "Herein, 'consciousness' means consciousness as cognizing an object. And what is the meaning of that saying? It is said, <span class='annotation' data-critical-note='‘All-inclusively’ means all varieties of consciousness.'>all-inclusively</span>  it is called 'consciousness' (<i>citta</i>) <span class='annotation' data-critical-note='Abhidh-av-pṭ I 1: <i>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</i>. (When consciousness is defined as that which knows, thinks about an object, all consciousness is meant.)'>because it thinks (<i>cinteti</i>);</span> or else it is called consciousness as <span class='annotation' data-critical-note='Abhidh-av-pṭ I 1: <i>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ.</i> (When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant.)'>that which accumulates (<i>cinoti</i>) the continuum of one-self.</span> [2]",
+        "Herein, 'consciousness' means consciousness as cognizing an object. And what is the meaning of that expression? It is said, <span class='annotation' data-critical-note='‘All-inclusively’ means any kind of consciousness.'>all-inclusively</span>  it is called 'consciousness' (<em>citta</em>) <span class='annotation' data-critical-note='Abhidh-av-pṭ I 1: <em>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</em>. (When consciousness is defined as that which knows, thinks about an object, all consciousness is meant.)'>because it thinks (<em>cinteti</em>);</span> or else it is called consciousness as <span class='annotation' data-critical-note='Abhidh-av-pṭ I 1: <em>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ.</em> (When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant.)'>that which accumulates (<em>cinoti</em>) the continuum of one-self.</span> [2]",
       free:
-        "Here, <i>citta</i> means consciousness as cognition of an object. What does it mean? Any <i>citta</i> is called so because it thinks (<i>cinteti</i>) [about an object], or, because the <i>cittas</i> [that constitute an action] also accumulate (<i>cinoti</i>) the continuum of one-self. [2]",
+        "Here, <em>citta</em> means consciousness as cognition of an object. What does it mean? Any <em>citta</em> is called so because it thinks (<em>cinteti</em>) [about an object], or, because the <em>cittas</em> [that constitute an action] also accumulate (<em>cinoti</em>) the continuum of one-self. [2]",
     },
 
     {
       pali:
         "9. vicittakaraṇā cittaṃ attano cittatāya vā<br>paññattiyam pi viññāṇe vicitte cittakammake<br>cittasammuti daṭṭhabbā viññāṇe idha viññunā",
       lit:
-        "9. It is [called] 'consciousness' (<i>citta</i>) due to its making things variegated (<i>vicitta/vicitra</i>), or due to its own being variegated (<i>cittatā/citratā</i>). [It can mean] <span class='annotation' data-critical-note='Abhidh-av-aṭ (I 138) explains it in the senses of the proper name, like in ‘<i>Citta</i> the householder’.'>mind as concept,</span> cognition (<i>viññāṇa</i>), variegated (<i>vicitta</i>), <span class='annotation' data-critical-note='What we are seeing here is a play on words rather than etymological definition. It is a method that later literature uses extensively, but unfortunately does not make much sense when translated to other languages. This also applies to the definitions that will follow.'>and painting-work (<i>cittakammaka</i>).</span> Here it should be understood by a wise person in the sense of cognition.",
+        "9. It is [called] 'consciousness' (<em>citta</em>) due to its making things variegated (<em>vicitta/vicitra</em>), or due to its own being variegated (<em>cittatā/citratā</em>). [It can mean] <span class='annotation' data-critical-note='Abhidh-av-nṭ (I 138) explains it in the senses of the proper name, like in ‘<em>Citta</em> the householder’.'>mind as concept,</span> cognition (<em>viññāṇa</em>), variegated (<em>vicitta</em>), <span class='annotation' data-critical-note='{This is an explanation of etymology of the word not from the standpoint of its history, but in terms of semantics (so called semantic etymology or analysis (<em>nirutti</em>). Later literature uses extensively this method, however, it does not make much sense when translated to other languages. This also applies to the definitions that follow.'>and painting-work (<em>cittakammaka</em>).</span> Here it should be understood by a wise person in the sense of cognition.",
       free:
-        "9. It variegates or it is variegated-<i>vicitta</i> thus it is called <i>citta</i>.<br>It can denote a painting or simply a name, cognition or a thing variegated.<br>The meaning of cognition is the sense that knowledgeable should understand here.",
+        "9. It variegates or it is variegated-<em>vicitta</em> thus it is called <em>citta</em>.<br>It can denote a painting or simply a name, cognition or a thing variegated.<br>The meaning of cognition is the sense that knowledgeable should understand here.",
     },
 
     {
       pali:
         "taṃ pana sārammaṇato ekavidhaṃ, savipākāvipākato duvidhaṃ. tattha savipākaṃ nāma kusalākusalaṃ, avipākaṃ abyākataṃ. kusalākusalābyākatajātibhedato tividhaṃ. tattha kusalan 'ti pan' etassa ko vacanattho?",
       lit:
-        "It is of one kind as to having an object; it is of two kinds with regard to producing and not producing results. Therein, wholesome and unwholesome are productive of results; indeterminate ones are not productive of results. According to its classification as wholesome, unwholesome, or indeterminate, it is of three kinds. What is the meaning of this 'wholesome' (<i>kusala</i>) here?",
+        "It is of one kind as to having an object; it is of two kinds with regard to producing and not producing results. Therein, wholesome and unwholesome are productive of results; indeterminate ones are not productive of results. According to its classification as wholesome, unwholesome, or indeterminate, it is of three kinds. What is the meaning of this 'wholesome' (<em>kusala</em>) here?",
       free: "",
     },
 
@@ -100,33 +100,33 @@ const theText = [
 
     {
       pali:
-        "10. kucchitānaṃ salanato kusānaṃ lavanena vā<br>kusena lātabbattā vā kusalan 'ti pavuccati<span class='testimonia' data-critical-note='<i>cf.</i> As 39 <sub>1-10</sub>'></span>",
+        "10. kucchitānaṃ salanato kusānaṃ lavanena vā<br>kusena lātabbattā vā kusalan 'ti pavuccati<span class='testimonia' data-critical-note='<em>cf.</em> As 39 <sub>1-10</sub>'></span>",
       lit:
-        "<span class='annotation' data-critical-note='This is a summary of the definition of <i>kusala</i> given in the As 39 <sub>1-10</sub> (Exp 50): <i>[K]usala</i>s are so called in that they cause contemptible things to tremble, to shake, to be disturbed, destroyed. Or, <i>kusa</i> are those (vices) which lie in a person under contemptible conditions. And <i>kusala</i>s  are so called because they lop off, cut off what are known as immoralities <i>(a-kusala</i>s). Or, knowledge is called <i>kusala</i> because of the reduction or eradication of contemptible things, and <i>kusala</i> is so called because things should be taken, grasped, set in motion by that <i>kusala</i>. Or just as the <i>kusa</i> grass cuts a part of the hand with both edges, so also certain things cut off the corrupt part in two portions, either what has arisen, or what has not arisen. Therefore <i>kusala</i>s are so called because they cut off the corruptions like the <i>kusa</i> grass (translated by Maung Tin).'>10. Because of its shaking (<i>salana</i>) contemptible (<i>kucchita</i>), or cutting (<i>lavana</i>) of blades of <i>kusa</i> grass (<i>kusa</i>), or else due to being [something] that by knowledge (<i>kusa</i>) should be acquired (<i>lātabba</i>) it is called 'wholesome'.</span>",
+        "<span class='annotation' data-critical-note='This is a summary of the definition of <em>kusala</em> given in the As 39 <sub>1-10</sub> (Exp 50): <em>[K]usala</em>s are so called in that they cause contemptible things to tremble, to shake, to be disturbed, destroyed. Or, <em>kusa</em> are those (vices) which lie in a person under contemptible conditions. And <em>kusala</em>s  are so called because they lop off, cut off what are known as immoralities <em>(a-kusala</em>s). Or, knowledge is called <em>kusala</em> because of the reduction or eradication of contemptible things, and <em>kusala</em> is so called because things should be taken, grasped, set in motion by that <em>kusala</em>. Or just as the <em>kusa</em> grass cuts a part of the hand with both edges, so also certain things cut off the corrupt part in two portions, either what has arisen, or what has not arisen. Therefore <em>kusala</em>s are so called because they cut off the corruptions like the <em>kusa</em> grass (translated by Maung Tin).'>10. Because of its shaking (<em>salana</em>) contemptible (<em>kucchita</em>), or cutting (<em>lavana</em>) of blades of <em>kusa</em> grass (<em>kusa</em>), or else due to being [something] that by knowledge (<em>kusa</em>) should be acquired (<em>lātabba</em>) it is called 'wholesome'.</span>",
       free:
-        "10. Contemtible-<i>ku</i> it shakes-<i>sala</i> thus it is called <i>kusala</i>.<br>Like blades of <i>kusa</i> grass it cuts thus it is <i>kusala</i>.<br>Or else by knowledge-<i>kusa</i> it is to be acquired, so it is named <i>kusala</i>.",
+        "10. Contemtible-<em>ku</em> it shakes-<em>sala</em> thus it is called <em>kusala</em>.<br>Like blades of <em>kusa</em> grass it cuts thus it is <em>kusala</em>.<br>Or else by knowledge-<em>kusa</em> it is to be acquired, so it is named <em>kusala</em>.",
     },
 
     {
       pali:
-        "11. cheke kusalasaddo 'yaṃ ārogye anavajjake<br>diṭṭho iṭṭhavipāke <span id='reading0'>pi</span> anavajjādike idha.<span class='testimonia' data-critical-note='<i>cf.</i> As 62 <sub>32</sub> - 63 <sub>4</sub>'></span>",
+        "11. cheke kusalasaddo 'yaṃ ārogye anavajjake<br>diṭṭho iṭṭhavipāke <span id='reading0'>pi</span> anavajjādike idha.<span class='testimonia' data-critical-note='<em>cf.</em> As 62 <sub>32</sub> - 63 <sub>4</sub>'></span>",
       lit:
         "11. The word 'wholesome' is seen in [the meanings of] clever, health, faultless, and giving agreeable results. Herein, [it means] 'blameless', and 'giving agreeable results'.",
       free:
-        "11. In many meanings <i>kusala</i> is seen:<br>health, skilful, faultless, and agreeable results producing.<br>In here, the last two are the ones that we mean.",
+        "11. In many meanings <em>kusala</em> is seen:<br>health, skilful, faultless, and agreeable results producing.<br>In here, the last two are the ones that we mean.",
     },
 
     {
       pali:
-        "tasmā anavajja-iṭṭhavipāka-lakkhaṇaṃ kusalaṃ, akusalaviddhaṃsana-rasaṃ, vodāna-paccupaṭṭhanaṃ. sāvajjapaṭipakkhattā anavajjam eva lakkhaṇaṃ vā kusalaṃ, vodānabhāva-rasaṃ, iṭṭhavipāka-paccupaṭṭhānaṃ, yonisomanasikāra-padaṭṭhānaṃ. sāvajjāniṭṭhavipāka-lakkhaṇaṃ akusalaṃ. tadubhayaviparīta-lakkhaṇaṃ abyākataṃ, avipākārahaṃ vā.<span class='testimonia' data-critical-note='<i>cf</i>. As 63 <sub>18-23</sub>'></span>",
+        "tasmā anavajja-iṭṭhavipāka-lakkhaṇaṃ kusalaṃ, akusalaviddhaṃsana-rasaṃ, vodāna-paccupaṭṭhanaṃ. sāvajjapaṭipakkhattā anavajjam eva lakkhaṇaṃ vā kusalaṃ, vodānabhāva-rasaṃ, iṭṭhavipāka-paccupaṭṭhānaṃ, yonisomanasikāra-padaṭṭhānaṃ. sāvajjāniṭṭhavipāka-lakkhaṇaṃ akusalaṃ. tadubhayaviparīta-lakkhaṇaṃ abyākataṃ, avipākārahaṃ vā.<span class='testimonia' data-critical-note='<em>cf</em>. As 63 <sub>18-23</sub>'></span>",
       lit:
-        "Therefore, the characteristic of the wholesome is faultlessness, and [ability to] produce agreeable results; <span class='annotation' data-critical-note='Abhidh-av-aṭ (I 143) elaborates that it has a function to remove corresponding defilements. 1) Limited, 2) exalted, and 3) supramundane – the threefold wholesome states remove the parts of unwholesome that they confront. They do so through overcoming 1) by those (wholesome) qualities (<i>tadaṅgappahāna</i>), 2) by suppression (<i>vikkhambhanappahāna</i>), 3) and by uprooting (<i>samucchedappahāna</i>) respectively.'>its function is destruction of unwholesome;</span>  its manifestation is purification. Or, its characteristic is faultlessness because it opposes the faulty; its function is [bringing about] the state of purity; its manifestation is production of agreeable results, and its proximate cause is proper attention. The characteristic of the unwholesome is faultiness and production of undesirable results; the indeterminate has its characteristic being opposite of these two or not productive of results.",
+        "Therefore, the characteristic of the wholesome is faultlessness, and [ability to] produce agreeable results; <span class='annotation' data-critical-note='Abhidh-av-nṭ (I 143) elaborates that it has a function to remove corresponding defilements. 1) Limited, 2) exalted, and 3) supramundane – the threefold wholesome states remove the parts of unwholesome that they confront. They do so through overcoming 1) by those (wholesome) qualities (<em>tadaṅgappahāna</em>), 2) by suppression (<em>vikkhambhanappahāna</em>), 3) and by uprooting (<em>samucchedappahāna</em>) respectively.'>its function is destruction of unwholesome;</span>  its manifestation is purification. Or, its characteristic is faultlessness because it opposes the faulty; its function is [bringing about] the state of purity; its manifestation is production of agreeable results, and its proximate cause is proper attention. The characteristic of the unwholesome is faultiness and production of undesirable results; the indeterminate has its characteristic being opposite of these two or not productive of results.",
       free: "",
     },
 
     {
       pali:
-        "tattha kusalacittaṃ ekavīsatividhaṃ hoti. tadidaṃ bhūmito catubbidhaṃ hoti: kāmāvacaraṃ, rūpāvacaraṃ, arūpāvacaraṃ, lokuttarañ ce 'ti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 452 <sub>29-30</sub>'></span>",
+        "tattha kusalacittaṃ ekavīsatividhaṃ hoti. tadidaṃ bhūmito catubbidhaṃ hoti: kāmāvacaraṃ, rūpāvacaraṃ, arūpāvacaraṃ, lokuttarañ ce 'ti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 452 <sub>29-30</sub>'></span>",
       lit:
         "Therein, the wholesome consciousness is of twenty-one kind. It is of four kinds with regard to the plane: of the sphere-of-sense-desires, of the fine-material-sphere, of the immaterial-sphere, and supramundane.",
       free: "",
@@ -142,13 +142,13 @@ const theText = [
       pali:
         "tattha kāmāvacaraṃ kusalacittaṃ bhūmito ekavidhaṃ; savatthukāvatthukabhedato duvidhaṃ; hinamajjhimapaṇītabhedato tividhaṃ; somanassupekkhā-ñāṇa-<span id='reading1'>ppayogabhedato</span> aṭṭhavidhaṃ hoti.",
       lit:
-        "Of them [all] the consciousness of the sphere-of-sense-desires is of a single variety with regard to the plane; it is of two kinds according to the classification with regard to having or not having a physical basis; it is of three kinds according to the <span class='annotation' data-critical-note='According to the Abhidh-av-aṭ (I 147) inferior is that which is lower than average and superior as to the causes and the fruits, or as to the qualities. Superior is that which is led to the state of prominance by one’s own conditions. That which is between them is average. What is produced by low desire to do, energy, consciousness, or investigation is inferior, by middle, average, and by higher, superior. The desire, etc. are low because of poor resolve, so poor resolve brings about inferiority, middle resolve – ordinariness, exceptional resolve – superiority. When wholesome act is done for the sake of fame it is inferior, when for the sake of results of merit it is average, and when for the sake of realizing <i>nibbāna</i> it is superior. When it is done as a means for achievement good rebirth and wealth, it is inferior; when, for accumulating <i>pārami</i> for ones own liberation as a disciple or a solitary Buddha, it is average; and when, for accumulating <i>pārami</i> for the perfect enlightenment as a Buddha, for the liberation of all, it is supreme.'>classification with regard to being inferior, average or superior;</span>  it is of eight kinds according to the classification with regard happiness and equanimity, knowledge and inducement,",
+        "Of them [all] the consciousness of the sphere-of-sense-desires is of a single variety with regard to the plane; it is of two kinds according to the classification with regard to having or not having a physical basis; it is of three kinds according to the <span class='annotation' data-critical-note='According to the Abhidh-av-nṭ (I 147) inferior is that which is lower than average and superior as to the causes and the fruits, or as to the qualities. Superior is that which is led to the state of prominance by one’s own conditions. That which is between them is average. What is produced by low desire to do, energy, consciousness, or investigation is inferior, by middle, average, and by higher, superior. The desire, etc. are low because of poor resolve, so poor resolve brings about inferiority, middle resolve – ordinariness, exceptional resolve – superiority. When wholesome act is done for the sake of fame it is inferior, when for the sake of results of merit it is average, and when for the sake of realizing <em>nibbāna</em> it is superior. When it is done as a means for achievement good rebirth and wealth, it is inferior; when, for accumulating <em>pārami</em> for ones own liberation as a disciple or a solitary Buddha, it is average; and when, for accumulating <em>pārami</em> for the perfect enlightenment as a Buddha, for the liberation of all, it is supreme.'>classification with regard to being inferior, average or superior;</span>  it is of eight kinds according to the classification with regard happiness and equanimity, knowledge and inducement,",
       free: "",
     },
 
     {
       pali:
-        "seyyathidaṃ: somanassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; upekkhāsahagataṃ ñāṇasampayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekan 'ti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 452 <sub>32</sub>- 453 <sub>1</sub>'></span> idaṃ aṭṭhavidham pi kāmāvacarakusalacittaṃ nāma.",
+        "seyyathidaṃ: somanassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; upekkhāsahagataṃ ñāṇasampayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekaṃ; upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikam ekaṃ, sasaṅkhārikam ekan 'ti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 452 <sub>32</sub>- 453 <sub>1</sub>'></span> idaṃ aṭṭhavidham pi kāmāvacarakusalacittaṃ nāma.",
       lit:
         "namely: 1) one [consciousness], accompanied by happiness, associated with knowledge, unprompted and 2) one prompted; 3) one consciousness, accompanied by happiness, dissociated from knowledge, unprompted and 4) one prompted; 5) one consciousness, accompanied by equanimity, associated with knowledge, unprompted and 6) one prompted; 7) one consciousness, accompanied by equanimity, dissociated from knowledge, unprompted and 8) one prompted. All the eight kinds are called wholesome consciousness of the sphere-of-sense-desires.",
       free: "",
@@ -156,18 +156,18 @@ const theText = [
 
     {
       pali:
-        "12. uddānato duve kāmā <span id='reading2'>klesavatthuvasā</span> pana<br>kileso chandarāgo 'va vatthu tebhumavaṭṭakaṃ.<span class='testimonia' data-critical-note='<i>cf</i>. As 62 <sub>1-3</sub>'></span> [3]",
+        "12. uddānato duve kāmā <span id='reading2'>klesavatthuvasā</span> pana<br>kileso chandarāgo 'va vatthu tebhumavaṭṭakaṃ.<span class='testimonia' data-critical-note='<em>cf</em>. As 62 <sub>1-3</sub>'></span> [3]",
       lit:
         "12. By way of exposition there are two kinds of desires – either as desire-as-defilement, or as <span class='annotation' data-critical-note='i.e. objects of desire.'>basis-for-desire.</span>  <span class='annotation' data-critical-note='Division of desire into two kinds is given in Nidd I 1. In the ‘basis-for-desire’ it defines ‘basis’ as all phenomena of the sphere-of-sense-desires, of the fine-material-sphere, and of the immaterial-sphere. These are basis for craving, objects of craving that are ‘desire’ in the sense of being desirable, enticing and intoxicating.'>As defilement, it is appetite and desire itself. As basis, it encompasses the entire round of existence in the three planes.</span>",
       free:
-        "12. Desires sum up under two main headings:<br>desire-as-affliction one, the basis-for-desire is another.<br>Affliction is the <i>chandarāga</i>, appetite and desire.<br>The round of existence with its three planes is the basis. [3]",
+        "12. Desires sum up under two main headings:<br>desire-as-affliction one, the basis-for-desire is another.<br>Affliction is the <em>chandarāga</em>, appetite and desire.<br>The round of existence with its three planes is the basis. [3]",
     },
 
     {
       pali:
-        "13. kilesakāmo kāmeti vatthu kāmīyatīti ca<br>sijjhati duvidho p' esa kāmo vo kārakadvaye.<span class='testimonia' data-critical-note='<i>cf</i>. Dha-a 62 <sub>3-4</sub>'></span>",
+        "13. kilesakāmo kāmeti vatthu kāmīyatīti ca<br>sijjhati duvidho p' esa kāmo vo kārakadvaye.<span class='testimonia' data-critical-note='<em>cf</em>. Dha-a 62 <sub>3-4</sub>'></span>",
       lit:
-        "13. The 'desire-as-defilement' craves, the 'basis-for-desire' is craved for, and so 'desire' occurs in <span class='annotation' data-critical-note='It can be both a subject and an object.'>two grammatical relationships.</span>",
+        "13. The 'desire-as-defilement' craves, the 'basis-for-desire' is craved for, and so 'desire' occurs in <span class='annotation' data-critical-note='It can be both a subject and an object'>two grammatical relationships.</span>",
       free:
         "13. The 'desire-as-affliction' craves,<br>the 'basis-for-desire' is craved for,<br>Thus the word 'desire' [grammatically being an agent or an object] can participate<br>in two kinds of syntactical relations.",
     },
@@ -182,9 +182,9 @@ const theText = [
 
     {
       pali:
-        "15. padeso catupāyānaṃ channaṃ devānam eva ca<br>manussānaṃ vasen' eva ekādasavidho pana<span class='testimonia' data-critical-note='<i>cf</i>. As 62 <sub>4-7</sub>'></span>",
+        "15. padeso catupāyānaṃ channaṃ devānam eva ca<br>manussānaṃ vasen' eva ekādasavidho pana<span class='testimonia' data-critical-note='<em>cf</em>. As 62 <sub>4-7</sub>'></span>",
       lit:
-        "15. that region is of eleven kinds: the four woeful realms, <br>the world of humans, and the six heavenly realms of <i>devas</i>.",
+        "15. that region is of eleven kinds: the four woeful realms, <br>the world of humans, and the six heavenly realms of <em>devas</em>.",
       free: "",
     },
 
@@ -192,32 +192,32 @@ const theText = [
       pali:
         "16. kāmo 'vacaratīt' ettha kāmāvacarasaññito<br>assābhilakkhitattā hi sasatthāvacaro viya",
       lit:
-        "<span class='annotation' data-critical-note='The significance of this passage becomes more apparent when we read the parallel passage in As 62 <sub>7-13</sub> (Exp 82) ‘And ‘sensuous’ is the term applied to them all because ‘sensuousness’ frequents them, like the battlefield resorted to by soldiers. As the place where armed men resort is called a battlefield because it is specially characterized by them, even though there may be other creatures, unarmed bipeds and quadrupeds, resorting to the same, so though things of other universes such as that of attenuated matter frequent it, the place still continues to be called ‘sensuous’, because it has been specially characterized by these modes of sensuous experience’ (translated by Maung Tin).'>16. It’s termed the 'sphere-of-sense-desires' (<i>kāmāvacara</i>) because desire (<i>kāmo</i>) is active (<i>avacarati</i>) there; just as [the term] 'sphere-of-armed-[men]' [is used], due to its being characterised by that.</span>",
+        "<span class='annotation' data-critical-note='The significance of this passage becomes more apparent when we read the parallel passage in As 62 <sub>7-13</sub> (Exp 82) ‘And ‘sensuous’ is the term applied to them all because ‘sensuousness’ frequents them, like the battlefield resorted to by soldiers. As the place where armed men resort is called a battlefield because it is specially characterized by them, even though there may be other creatures, unarmed bipeds and quadrupeds, resorting to the same, so though things of other universes such as that of attenuated matter frequent it, the place still continues to be called ‘sensuous’, because it has been specially characterized by these modes of sensuous experience’ (translated by Maung Tin).'>16. It’s termed the 'sphere-of-sense-desires' (<em>kāmāvacara</em>) because desire (<em>kāmo</em>) is active (<em>avacarati</em>) there; just as [the term] 'sphere-of-armed-[men]' [is used], due to its being characterised by that.</span>",
       free:
-        "16. It is termed the 'sphere-of-sense-desires'<br>because desire is active there,<br>just like a 'military sphere' is so termed<br>because the military is the distinguishing mark here.",
+        "16. It is termed the 'sphere-of-sense-desires' because, like the battle field is characterised by warriors being active there, that sphere is characterised by desire being active there",
     },
 
     {
       pali:
         "17. svāyaṃ rūpabhavo rūpaṃ evaṃ kāmo 'ti saññito<br>uttarassa padass' eva lopaṃ katvā udīrito",
       lit:
-        "<span class='annotation' data-critical-note='Here again the text closely follows As 62 <sub>13-15</sub> (Exp 82): ‘Just as ‘<i>rūpa</i>-sphere’ is shortened into ‘<i>rūpa</i>’, so ‘sensuous universe’ is simply called ‘sensuous’ by eliding the latter term (translated by Maung Tin).'>17. It is said, as [in its shortened form] the 'fine-material existence' [is called] the 'fine-material', even so [the 'sphere-of-sense-desires'] having made the elision of the last word is called 'sense desires'.</span>",
+        "<span class='annotation' data-critical-note='Here again the text closely follows As 62 <sub>13-15</sub> (Exp 82): ‘Just as ‘<em>rūpa</em>-sphere’ is shortened into ‘<em>rūpa</em>’, so ‘sensuous universe’ is simply called ‘sensuous’ by eliding the latter term (translated by Maung Tin).'>17. It is said, as [in its shortened form] the 'fine-material existence' [is called] the 'fine-material', even so [the 'sphere-of-sense-desires'] having made the elision of the last word is called 'sense desires'.</span>",
       free:
         "17. Eliding the last word, like, when shortened,<br>the 'fine-material existence' becomes 'fine-material',<br>this sphere can also be called<br>the 'sense desire', so by the wise it was spoken. ",
     },
 
     {
       pali:
-        "18. tasmiṃ kāme idaṃ cittaṃ sadā 'vacaratīti ca<br>kāmāvacaram icc evaṃ kathitaṃ kāmaghātinā<span class='testimonia' data-critical-note='<i>cf</i>. As 62 <sub>16-17</sub>'></span>",
+        "18. tasmiṃ kāme idaṃ cittaṃ sadā 'vacaratīti ca<br>kāmāvacaram icc evaṃ kathitaṃ kāmaghātinā<span class='testimonia' data-critical-note='<em>cf</em>. As 62 <sub>16-17</sub>'></span>",
       lit:
-        "18. Since <span class='annotation' data-critical-note='’This‘ means the eight kinds of the above mentioned consciousnesses (Abhidh-av-aṭ I 157).'>this consciousness</span> always frequents in that desire, it was called 'of-sphere-of-sense-desires' by the one who had destroyed the desires.",
+        "18. Since <span class='annotation' data-critical-note='’This‘ means the eight kinds of the above mentioned consciousnesses (Abhidh-av-nṭ I 157).'>this consciousness</span> always frequents in that desire, it was called 'of-sphere-of-sense-desires' by the one who had destroyed the desires.",
       free:
         "18. This consciousness always frequents in that desire,<br> and for that fact the one who has destroyed desires<br>'of-sphere-of-sense-desires' designated that.",
     },
 
     {
       pali:
-        "19. paṭisandhiṃ bhave kāme avacārayatīti vā<br>kāmāvacaram icc evaṃ pariyāpannan 'ti tatra vā<span class='testimonia' data-critical-note='<i>cf</i>. As 62 <sub>29-30</sub>'></span>",
+        "19. paṭisandhiṃ bhave kāme avacārayatīti vā<br>kāmāvacaram icc evaṃ pariyāpannan 'ti tatra vā<span class='testimonia' data-critical-note='<em>cf</em>. As 62 <sub>29-30</sub>'></span>",
       lit:
         "19. Or it is 'of-sphere-of-sense-desires' since it causes conception to function in the existence in the [sphere-of-]sense-desires, or because it belongs there.",
       free:
@@ -253,7 +253,7 @@ const theText = [
 
     {
       pali:
-        "23. desanā savaṇaṃ diṭṭhi ujukā bhāvanāmaye<br>puna tīṇ' eva sambhonti dasa puññakriyā pi ca<span class='testimonia' data-critical-note='<i>cf</i>. As 159 <sub>10-13</sub>'></span>",
+        "23. desanā savaṇaṃ diṭṭhi ujukā bhāvanāmaye<br>puna tīṇ' eva sambhonti dasa puññakriyā pi ca<span class='testimonia' data-critical-note='<em>cf</em>. As 159 <sub>10-13</sub>'></span>",
       lit:
         "23. teaching, listening and straightening view [are included] in [the meritorious action of] cultivation; and [in this way] the ten meritorious deeds also become only three.",
       free:
@@ -264,14 +264,14 @@ const theText = [
       pali:
         "24. sabbānussatipuññañ ca pasaṃsā saraṇattayaṃ<br>yanti diṭṭhujukammasmiṃ saṅgahaṃ natthi saṃsayo",
       lit:
-        "24. There is no doubt, the <span class='annotation' data-critical-note='Abhidh-av-aṭ (I 162) explains <i>sabbānussatipuñña</i> as ‘recollection of previous merits’ (<i>tattha sabbass’ eva attanā katasucaritassa anussaraṇaṃ sabbānussatipuññaṃ nāma</i>), but this verse is clearly an objection to the teachings of a rival fraternity of Abhāyagīri monastery. In their <i>Saddhammopāyana</i> v.213, twelve bases of merits are named: <i>dānaṃ, sīlañ ca bhāvanā, pattipattānumodanā, desanā, savanaṃ, pūjā, veyyāvaccaṃ, pasaṃsanā, saraṇam, anussati c’ eva puññavatthūni bārasa.</i> And thus instead of ‘straightening of one’s view’ they had ‘praising, refuge and recollection’. Our author brings in this verse in order to clarify the controversy. All recollections here probably means the ten recollections that are explained in the Vism in the section on concentration, namely: recollection of Buddha, Dhamma, Saṅgha, virtue, generosity, deities, death, body, breath, and peace.'>meritorious action of all recollections, praising, and the three refuges are included in the straightening of one’s view.</span>",
+        "24. There is no doubt, the <span class='annotation' data-critical-note='Abhidh-av-nṭ (I 162) explains <em>sabbānussatipuñña</em> as ‘recollection of previous merits’ (<em>tattha sabbass’ eva attanā katasucaritassa anussaraṇaṃ sabbānussatipuññaṃ nāma</em>), but this verse is clearly an objection to the teachings of a rival fraternity of Abhāyagīri monastery. In their <em>Saddhammopāyana</em> v. 213, twelve bases of merits are named: <em>dānaṃ, sīlañ ca bhāvanā, pattipattānumodanā, desanā, savanaṃ, pūjā, veyyāvaccaṃ, pasaṃsanā, saraṇam, anussati c’ eva puññavatthūni bārasa.</em> And thus instead of ‘straightening of one’s view’ they had ‘praising, refuge and recollection’. Our author brings in this verse in order to clarify the controversy. All recollections here probably means the ten recollections that are explained in the Vism in the section on concentration, namely: recollection of Buddha, Dhamma, Saṅgha, virtue, generosity, deities, death, body, breath, and peace.'>meritorious action of all recollections, praising, and the three refuges are included in the straightening of one’s view.</span>",
       free:
         "24. Included in straightening of one’s view<br>are meritorious acts of all recollections, <br>of praising, and of the three refuges, no doubt.",
     },
 
     {
       pali:
-        "25. purimā muñcanā c' eva parā -- tisso pi cetanā<br><span id='reading7'>honti</span> dānamayaṃ puññaṃ evaṃ sesesu dīpaye<span class='testimonia' data-critical-note='<i>cf</i>. As 159 <sub>9-10</sub>'></span>",
+        "25. purimā muñcanā c' eva parā -- tisso pi cetanā<br><span id='reading7'>honti</span> dānamayaṃ puññaṃ evaṃ sesesu dīpaye<span class='testimonia' data-critical-note='<em>cf</em>. As 159 <sub>9-10</sub>'></span>",
       lit:
         "25. The three volitions -- previous, this very present, and later are the merit of giving. Same should be explained with regard to the rest.",
       free:
@@ -280,31 +280,31 @@ const theText = [
 
     {
       pali:
-        "idāni <span id='reading8'>assa</span> pan' aṭṭhavidhassāpi kāmāvacarakusalacittassa uppattikkamo veditabbo. yadā <span id='reading9'>hi</span> yo deyyadhammappaṭiggāhakādi-sampattiṃ aññaṃ vā somanassahetuṃ āgamma haṭṭhapahaṭṭho 'atthi dinnan' ti-ādinayappavattaṃ sammādiṭṭhiṃ purakkhitvā parehi anussāhito dānādi puññāni karoti, tadā 'ssa somanassasahagataṃ [4] ñāṇasampayuttaṃ asaṅkhārikaṃ paṭhamaṃ mahākusalacittaṃ uppajjati.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 453 <sub>1-6</sub>'></span>",
+        "idāni <span id='reading8'>assa</span> pan' aṭṭhavidhassāpi kāmāvacarakusalacittassa uppattikkamo veditabbo. yadā <span id='reading9'>hi</span> yo deyyadhammappaṭiggāhakādi-sampattiṃ aññaṃ vā somanassahetuṃ āgamma haṭṭhapahaṭṭho 'atthi dinnan' ti-ādinayappavattaṃ sammādiṭṭhiṃ purakkhitvā parehi anussāhito dānādi puññāni karoti, tadā 'ssa somanassasahagataṃ [4] ñāṇasampayuttaṃ asaṅkhārikaṃ paṭhamaṃ mahākusalacittaṃ uppajjati.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 453 <sub>1-6</sub>'></span>",
       lit:
-        "Now the following process of origination of eight kinds of wholesome consciousness of the sphere-of-sense-desires should be known. The first great wholesome consciousness, which is accompanied by happiness [4], associated with knowledge, and unprompted arises at times when one is very happy owing to the fortune [of having] the things to give, a recipient, <span class='annotation' data-critical-note='Abhhi-āv-aṭ (I 164) explains ‘etc.’ as place, time and friends. ‘A fortune [of having] the things to give’ means having an excellent, delightful lawfully obtained gift. ‘A fortune [of having]  a recipient‘ means a recipient most worthy of gifts. ‘A fortunate place and time‘ are those where food and drink are difficult to obtain. These are called fortunate because at that place or time because of the strength of the intention what is given is of great fruit and a cause of happiness. A fortune of having a friend refers to a good friend because with a support of a good friend mind becomes overjoyed.'>etc.,</span> or [owing to] any other cause for happiness, and being preceded by the right view that occurs by [thinking] 'there is what is given,' etc., <span class='annotation' data-critical-note='In the Vism 453 in addition to that we find ‘unhesitatingly‘ (<i>asaṃsīdanto</i>).'>without being encouraged by another,</span> he performs meritorious actions of giving, etc.",
+        "Now the following process of origination of eight kinds of wholesome consciousness of the sphere-of-sense-desires should be known. The first great wholesome consciousness, which is accompanied by happiness [4], associated with knowledge, and unprompted arises at times when one is very happy owing to the fortune [of having] the things to give, a recipient, <span class='annotation' data-critical-note='Abhhi-āv-aṭ (I 164) explains ‘etc.’ as place, time and friends. ‘A fortune [of having] the things to give’ means having an excellent, delightful lawfully obtained gift. ‘A fortune [of having]  a recipient‘ means a recipient most worthy of gifts. ‘A fortunate place and time‘ are those where food and drink are difficult to obtain. These are called fortunate because at that place or time because of the strength of the intention what is given is of great fruit and a cause of happiness. A fortune of having a friend refers to a good friend because with a support of a good friend mind becomes overjoyed.'>etc.,</span> or [owing to] any other cause for happiness, and being preceded by the right view that occurs by [thinking] 'there is what is given,' etc., <span class='annotation' data-critical-note='In the Vism 453 in addition to that we find ‘unhesitatingly‘ (<em>asaṃsīdanto</em>).'>without being encouraged by another,</span> he performs meritorious actions of giving, etc.",
       free: "",
     },
 
     {
       pali:
-        "yadā pana vuttanayen' eva haṭṭhapahaṭṭho sammādiṭṭhiṃ purakkhatvā  parehi ussāhito karoti, tadā' ssa tad' eva  cittaṃ sasaṅkhārikaṃ hoti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 453 <sub>6-9</sub>'></span>",
+        "yadā pana vuttanayen' eva haṭṭhapahaṭṭho sammādiṭṭhiṃ purakkhatvā  parehi ussāhito karoti, tadā' ssa tad' eva  cittaṃ sasaṅkhārikaṃ hoti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 453 <sub>6-9</sub>'></span>",
       lit:
-        "But when on the occasion described above he does it being very happy, preceded by right view, but instigated by others, then his consciousness is of the same kind, but prompted (<i>sasaṅkhārika</i>).",
+        "But when on the occasion described above he does it being very happy, preceded by right view, but instigated by others, then his consciousness is of the same kind, but prompted (<em>sasaṅkhārika</em>).",
       free: "",
     },
 
     {
       pali:
-        "imasmiṃ pan' atthe saṅkhāro ti attano vā parassa vā pavattassa pubbapayogassādhivacanaṃ.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 453 <sub>9-11</sub>'></span>",
+        "imasmiṃ pan' atthe saṅkhāro ti attano vā parassa vā pavattassa pubbapayogassādhivacanaṃ.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 453 <sub>9-11</sub>'></span>",
       lit:
-        "In this usage the term '<i>saṅkhāra</i>' is a designation for the prior effort exerted by oneself or another.",
+        "In this usage the term '<em>saṅkhāra</em>' is a designation for the prior effort exerted by oneself or another.",
       free: "",
     },
 
     {
       pali:
-        "yadā pana ñātijanassa paṭipattidassanena jātaparicayā <span id='reading10'>bāladārakā</span> <span id='reading11'>bhikkhū</span> disvā somanassajātā sahasā yaṃ kiñ ci hatthagataṃ dadanti vā, vandanti vā, tadā tesaṃ tatiyacittam uppajjati. yadā pana te: 'detha vandatha ayye' ti evaṃ ñātijanena ussāhitā hutvā hatthagataṃ dadanti vā, vandanti vā, tadā tesaṃ catutthacittam uppajjati.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 453<sub>11-16</sub>'></span>",
+        "yadā pana ñātijanassa paṭipattidassanena jātaparicayā <span id='reading10'>bāladārakā</span> <span id='reading11'>bhikkhū</span> disvā somanassajātā sahasā yaṃ kiñ ci hatthagataṃ dadanti vā, vandanti vā, tadā tesaṃ tatiyacittam uppajjati. yadā pana te: 'detha vandatha ayye' ti evaṃ ñātijanena ussāhitā hutvā hatthagataṃ dadanti vā, vandanti vā, tadā tesaṃ catutthacittam uppajjati.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 453<sub>11-16</sub>'></span>",
       lit:
         "But when small children with a habit arisen on account of seeing the behaviour of relatives, on seeing monks are happy and give them whatever they have in their hands or pay homage, then the third kind of consciousness arises. But, when they give whatever they have in their hands or pay homage after having been encouraged by relatives, 'dear, give, pay homage', then the fourth kind of consciousness arises.",
       free: "",
@@ -312,7 +312,7 @@ const theText = [
 
     {
       pali:
-        "yadā pana deyyadhammappaṭiggāhakādīnaṃ  asampattiṃ vā aññesaṃ vā somanassa hetūnaṃ abhāvaṃ āgamma catūsu <span id='reading12'>pi</span> vikappesu somanassarahitā honti, tadā sesāni cattāri upekkhāsahagatāni uppajjanti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 453 <sub>17-20</sub>'></span>",
+        "yadā pana deyyadhammappaṭiggāhakādīnaṃ  asampattiṃ vā aññesaṃ vā somanassa hetūnaṃ abhāvaṃ āgamma catūsu <span id='reading12'>pi</span> vikappesu somanassarahitā honti, tadā sesāni cattāri upekkhāsahagatāni uppajjanti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 453 <sub>17-20</sub>'></span>",
       lit:
         "However, when owing to the lack in what to give, in a recipient, etc. or [owing to] the absence of any other cause for happiness in the four scenarios they are devoid of happiness, then the remaining four [varieties of consciousness] accompanied by equanimity arise.",
       free: "",
@@ -339,7 +339,7 @@ const theText = [
       pali:
         "27. sattarasa sahassāni dve satāni asīti ca<br> kāmāvacarapuññāni bhavantīti viniddise",
       lit:
-        "27. He may define <span class='annotation' data-critical-note='Abhidh-av-aṭ I 167 explains how the number is obtained by division of consciousness into kinds according to the ten meritorious deeds, the six objects, the four predominants, the three actions, the inferior-middling-superior. The Abhidh-s-(mh)ṭ, however, points out that this calculation is not exact and the number should be 15,120.'>seventeen thousand two hundred and eighty meritorious [kinds of consciousness]  of the sphere-of-sense-desires.</span>",
+        "27. He may define <span class='annotation' data-critical-note='Abhidh-av-nṭ I 167 explains how the number is obtained by division of consciousness into kinds according to the ten meritorious deeds, the six objects, the four predominants, the three actions, the inferior-middling-superior. The Abhidh-s-(mh)ṭ, however, points out that this calculation is not exact and the number should be 15,120.'>seventeen thousand two hundred and eighty meritorious [kinds of consciousness]  of the sphere-of-sense-desires.</span>",
       free:
         "27. two hundred and eighty plus seventeen thousands<br>of meritorious consciousness kinds belonging<br>to the sphere-of-sense-desires type.",
     },
@@ -362,7 +362,7 @@ const theText = [
       pali:
         "itaresu pana rūpāvacarakusalacittaṃ savatthukato ekovidhaṃ; dvīsu bhavesu uppajjanato duvidhaṃ; hīna-majjhima-paṇītabhedato tividhaṃ; paṭipadādibhedato catubbidhaṃ; <span id='reading15'>jhānaṅgayogabhedato</span> pañcavidhaṃ.",
       lit:
-        "But of other [consciousnesses], [all] the fine-material-sphere wholesome consciousness is <span class='annotation' data-critical-note='According Abhidh-av-aṭ 169 this is so because those who are in the immaterial sphere do not attain the fine-material <i>jhāna</i>s and therefore do not obtain the states of the fine-material sphere because they were reborn there through the development of disenchantment towards matter.'>of a single variety with regard to having a physical basis.</span> It is of two kinds according to the classification with regard to arising in two [spheres of] existence. It is of three kinds according to the classification with regard to being inferior, average or superior. It is of four kinds according to the classification with regard to practice, <span class='annotation' data-critical-note='Abhidh-av-aṭ 169 explains ‘etc.’ as classification with regard to predominance, object, and being conductive to relinquishment or not. In ‘the classification with regard to practice’ ‘practice’ refers to 1) practice that is painful with sluggish direct knowledge; 2) practice that is painful with quick direct knowledge; 3) practice that is pleasant with sluggish direct knowledge; and 4) practice that is pleasant with quick direct knowledge.'>etc..</span>  It is of five kinds with regard to association with <i>jhāna</i> factors,",
+        "But of other [consciousnesses], [all] the fine-material-sphere wholesome consciousness is <span class='annotation' data-critical-note='According Abhidh-av-nṭ 169 this is so because those who are in the immaterial sphere do not attain the fine-material <em>jhāna</em>s and therefore do not obtain the states of the fine-material sphere because they were reborn there through the development of disenchantment towards matter.'>of a single variety with regard to having a physical basis.</span> It is of two kinds according to the classification with regard to arising in two [spheres of] existence. It is of three kinds according to the classification with regard to being inferior, average or superior. It is of four kinds according to the classification with regard to practice, <span class='annotation' data-critical-note='Abhidh-av-nṭ 169 explains ‘etc.’ as classification with regard to predominance, object, and being conductive to relinquishment or not. In ‘the classification with regard to practice’ ‘practice’ refers to 1) practice that is painful with sluggish direct knowledge; 2) practice that is painful with quick direct knowledge; 3) practice that is pleasant with sluggish direct knowledge; and 4) practice that is pleasant with quick direct knowledge.'>etc..</span>  It is of five kinds with regard to association with <em>jhāna</em> factors,",
       free: "",
     },
 
@@ -378,7 +378,7 @@ const theText = [
       pali:
         "taṃ pana yathāsambhavaṃ paṭhavīkasiṇādīsu ārammaṇesu pavattivasena anekavidhaṃ hoti. sabbaṃ pan' etaṃ rūpāvacarabhāvanā-puñña-vasappavattaṃ yathānurūpaṃ rūpāvacarūpapatti-nipphādakaṃ hoti. evaṃ tāva <span id='reading16'>rūpāvacarakusalaṃ</span> veditabbaṃ.",
       lit:
-        "According to its origin it is of many kinds with regard to the objects such as earth <i>kasiṇa</i>, etc.. But all this [consciousness] occurring through the meritorious action of development of the fine-material [consciousness] is productive of corresponding rebirth in the fine-material sphere. This is in the first place how the wholesome [consciousness] of the fine-material sphere should be understood.",
+        "According to its origin it is of many kinds with regard to the objects such as earth <em>kasiṇa</em>, etc.. But all this [consciousness] occurring through the meritorious action of development of the fine-material [consciousness] is productive of corresponding rebirth in the fine-material sphere. This is in the first place how the wholesome [consciousness] of the fine-material sphere should be understood.",
       free: "",
     },
 
@@ -430,7 +430,7 @@ const theText = [
       pali:
         "itaraṃ pana lokuttarakusalacittaṃ nibbānārammaṇato ekavidhaṃ, niyatāniyata-vatthukabhedato duvidhaṃ, tīhi vimokkhamukhehi pattabbato tividhaṃ, catumagga-yogabhedato catubbidhaṃ.",
       lit:
-        "The other one, supramundane wholesome consciousness, is of single variety with regard to the object – <i>nibbāna</i>; <span class='annotation' data-critical-note='Abhidh-av-pṭ 7 explains that the path of stream-entry necessarily has a base, because in the sense and the fine-material spheres consciousness has a base. The rest three paths not necessarily have a base. In the sphere-of-sense-desires and the fine-material sphere, they arise in dependence on the base, in the immaterial sphere without the base.'>it is of two kinds according to the classification with regard to necessarily or not necessarily having a physical basis.</span> It is of three kinds with regard to being attainable through the three doors of emancipation. It is of four kinds according to the classification with regard to the association with the four paths,",
+        "The other one, supramundane wholesome consciousness, is of single variety with regard to the object – <em>nibbāna</em>; <span class='annotation' data-critical-note='Abhidh-av-pṭ 7 explains that the path of stream-entry necessarily has a base, because in the sense and the fine-material spheres consciousness has a base. The rest three paths not necessarily have a base. In the sphere-of-sense-desires and the fine-material sphere, they arise in dependence on the base, in the immaterial sphere without the base.'>it is of two kinds according to the classification with regard to necessarily or not necessarily having a physical basis.</span> It is of three kinds with regard to being attainable through the three doors of emancipation. It is of four kinds according to the classification with regard to the association with the four paths,",
       free: "",
     },
 
@@ -483,7 +483,7 @@ const theText = [
 
     {
       pali:
-        "akusalaṃ pana bhūmito ekavidhaṃ, kāmāvacaram eva; niyatāniyatavatthuvasena ca, ekahetuka-duhetukavasena ca, paṭisandhi-<span id='reading25'>janakājanakavasena</span> ca duvidhaṃ; tīhi vedanāhi yogato ca, lobhamūlaṃ dosamūlaṃ mohamūlan 'ti mūlato <span id='reading26'>pi</span> tividhaṃ hoti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 454 <sub>1-2</sub>'></span>",
+        "akusalaṃ pana bhūmito ekavidhaṃ, kāmāvacaram eva; niyatāniyatavatthuvasena ca, ekahetuka-duhetukavasena ca, paṭisandhi-<span id='reading25'>janakājanakavasena</span> ca duvidhaṃ; tīhi vedanāhi yogato ca, lobhamūlaṃ dosamūlaṃ mohamūlan 'ti mūlato <span id='reading26'>pi</span> tividhaṃ hoti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 454 <sub>1-2</sub>'></span>",
       lit:
         "As for the unwholesome [consciousness], it is of a single variety with regard to the plane: it belongs to the sphere-of-sense-desires only. It is of two kinds with regard to necessarily or not necessarily having a physical basis, having one or two roots, and being or not being productive of rebirth. It is of three kinds with regard to associated feeling, and with regard to root as [consciousness] rooted in greed, rooted in hatred, and rooted in delusion.",
       free: "",
@@ -529,7 +529,7 @@ const theText = [
 
     {
       pali:
-        "yadā pana kāmānaṃ vā asampattiṃ āgamma aññesaṃ vā somanassahetūnaṃ abhāvena <span id='reading31'>catūsu</span> vikappesu somanassarahitā honti, tadā sesāni cattāri upekkhāsahagatāni uppajjantīti. evaṃ somanassupekkhā-diṭṭhi-<span id='reading32'>ppayogabhedato</span> aṭṭhavidhaṃ lobhamūlaṃ veditabbaṃ.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 454 <sub>8-22</sub>'></span>",
+        "yadā pana kāmānaṃ vā asampattiṃ āgamma aññesaṃ vā somanassahetūnaṃ abhāvena <span id='reading31'>catūsu</span> vikappesu somanassarahitā honti, tadā sesāni cattāri upekkhāsahagatāni uppajjantīti. evaṃ somanassupekkhā-diṭṭhi-<span id='reading32'>ppayogabhedato</span> aṭṭhavidhaṃ lobhamūlaṃ veditabbaṃ.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 454 <sub>8-22</sub>'></span>",
       lit:
         "However, when owing to the lack of the sensual pleasures or [owing to] the absence of any other causes for happiness, in the four scenarios they are devoid of happiness, then the remaining four [varieties of consciousness] arise accompanied by equanimity. Thus should be understood the eight kinds of greed-rooted [consciousness] according to the classification with regard to happiness or equanimity, wrong view, and inducement.",
       free: "",
@@ -613,9 +613,9 @@ const theText = [
 
     {
       pali:
-        "yathā pan' assa kusalaṃ dānādivasena chasu ārammaṇesu  pavattati na idaṃ tathā, idaṃ hi paṭisandhi-bhavaṅga-cuti-tadārammaṇavasena parittadhamma-pariyāpannesu yeva chasu ārammaṇesu pavattati. sampayuttadhammānañ ca visese asati pi ādāsatalādisu mukhanimittaṃ viya nirussāhaṃ vipākaṃ, mukhaṃ viya saussāhaṃ kusalan 'ti veditabbaṃ.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 455 <sub>32</sub> - 456 <sub>3</sub>'></span>",
+        "yathā pan' assa kusalaṃ dānādivasena chasu ārammaṇesu  pavattati na idaṃ tathā, idaṃ hi paṭisandhi-bhavaṅga-cuti-tadārammaṇavasena parittadhamma-pariyāpannesu yeva chasu ārammaṇesu pavattati. sampayuttadhammānañ ca visese asati pi ādāsatalādisu mukhanimittaṃ viya nirussāhaṃ vipākaṃ, mukhaṃ viya saussāhaṃ kusalan 'ti veditabbaṃ.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 455 <sub>32</sub> - 456 <sub>3</sub>'></span>",
       lit:
-        "But unlike wholesome [consciousness], which occurs with the six objects by way of giving, etc., this one occurs with the six limited objects  as rebirth-linking (<i>paṭisandhi</i>), life-continuum (<i>bhavaṅga</i>), death (<i>cuti</i>), and registration (<i>tadārammaṇa</i>). It should be known that there is no difference in the associated states, but the resultant is passive like the reflection of the face in a mirror, etc., and the wholesome is active, like the face.",
+        "But unlike wholesome [consciousness], which occurs with the six objects by way of giving, etc., this one occurs with the six limited objects  as rebirth-linking (<em>paṭisandhi</em>), life-continuum (<em>bhavaṅga</em>), death (<em>cuti</em>), and registration (<em>tadārammaṇa</em>). It should be known that there is no difference in the associated states, but the resultant is passive like the reflection of the face in a mirror, etc., and the wholesome is active, like the face.",
       free: "",
     },
 
@@ -642,14 +642,14 @@ const theText = [
       lit:
         "33. From then on, [in that] existence as long as life lasts – they are the life-continuum and also registration, when there is a striking object. [8]",
       free:
-        "33. in that existence for as long as life endures<br>they transpire as <i>bhavaṅga</i>, life-continuum,<br> and as registration when a striking object occurs.",
+        "33. in that existence for as long as life endures<br>they transpire as <em>bhavaṅga</em>, life-continuum,<br> and as registration when a striking object occurs.",
     },
 
     {
       pali:
         "34. tato maraṇakālasmiṃ cuti hutvā pavattare<br>evaṃ catusu ṭhānesu vipaccantī 'ti niddise",
       lit:
-        "34. After that, at the time of dying they occur as death[-consciousness] (<i>cuti</i>). Thus one would explain the four instances when they ripen.",
+        "34. After that, at the time of dying they occur as death[-consciousness] (<em>cuti</em>). Thus one would explain the four instances when they ripen.",
       free: "",
     },
 
@@ -657,24 +657,24 @@ const theText = [
       pali:
         "35. sabhūmikusaleh' eva mahāpākā samā vinā<br> kammadvārañ ca kammañ ca puññānaṃ kriyavatthukaṃ",
       lit:
-        "35. The great resultant [consciousnesses] indeed are similar to the wholesome of their plane, [however] they lack the doors of action, <i>kamma</i>, and bases for meritorious actions as well.",
+        "35. The great resultant [consciousnesses] indeed are similar to the wholesome of their plane, [however] they lack the doors of action, <em>kamma</em>, and bases for meritorious actions as well.",
       free: "",
     },
 
     {
       pali:
-        "36. aviññattijanattā hi avipākasabhāvato<br>appavattanato <span id='reading37'>c' eva</span> pākā puññehi no samā<span class='testimonia' data-critical-note='<i>cf</i>. As 265 <sub>27-30</sub>'></span>",
+        "36. aviññattijanattā hi avipākasabhāvato<br>appavattanato <span id='reading37'>c' eva</span> pākā puññehi no samā<span class='testimonia' data-critical-note='<em>cf</em>. As 265 <sub>27-30</sub>'></span>",
       lit:
-        "36. The resultant are not same as meritorious [consciousnesses] because (<i>hi</i>) of inability to produce intimation, the nature of not giving result, and non-occurrence [through performance].",
+        "36. The resultant are not same as meritorious [consciousnesses] because (<em>hi</em>) of inability to produce intimation, the nature of not giving result, and non-occurrence [through performance].",
       free:
         "36. Resultant cannot produce intimation,<br>and have the nature of not giving result,<br>moreover, cannot they occur through performance.<br>These are the reasons why from meritorious they stand apart.",
     },
 
     {
       pali:
-        "37. parittārammaṇattā hi tesam ekantato pana<br>karuṇā muditā tesu na jāyanti kadāci pi<span class='testimonia' data-critical-note='<i>cf</i>. As 265 <sub>30</sub>-266 <sub>2</sub>'></span>",
+        "37. parittārammaṇattā hi tesam ekantato pana<br>karuṇā muditā tesu na jāyanti kadāci pi<span class='testimonia' data-critical-note='<em>cf</em>. As 265 <sub>30</sub>-266 <sub>2</sub>'></span>",
       lit:
-        "37. Also (<i>pi</i>), because they exclusively have limited objects, compassion and sympathetic joy never arise in them.",
+        "37. Also (<em>pi</em>), because they exclusively have limited objects, compassion and sympathetic joy never arise in them.",
       free:
         "37. Because they have only limited objects, <br>neither compassion, nor sympathetic joy,<br>arise in them ever, and likewise with them",
     },
@@ -683,14 +683,14 @@ const theText = [
       pali:
         "38. tathā viratiyo tisso na pan' etesu jāyare<br>pañca sikkhāpadā vuttā kusalā ti hi satthunā",
       lit:
-        "38. Likewise, the three abstinences do not arise in them, because (<i>hi</i>) it [was stated] by the teacher that the five trainings pertain to the wholesome.",
+        "38. Likewise, the three abstinences do not arise in them, because (<em>hi</em>) it [was stated] by the teacher that the five trainings pertain to the wholesome.",
       free:
         "38. the three abstinences fail to arise<br>as it [was said] by the teacher the five trainings<br>rather to the wholesome pertain. ",
     },
 
     {
       pali:
-        "39. tathādhipatino p' ettha na santī 'ti viniddise<br>chandādīni dhuraṃ katvā anuppajjanato pana.<span class='testimonia' data-critical-note='<i>cf</i>. As 266 <sub>3-4 & 13-14</sub>'></span>",
+        "39. tathādhipatino p' ettha na santī 'ti viniddise<br>chandādīni dhuraṃ katvā anuppajjanato pana.<span class='testimonia' data-critical-note='<em>cf</em>. As 266 <sub>3-4 & 13-14</sub>'></span>",
       lit:
         "39. One would explain that the predominances are also absent in them, because the desire [to do], etc. do not arise as a leader [in them].",
       free:
@@ -701,9 +701,9 @@ const theText = [
       pali:
         "40. asaṅkhāra-sasaṅkhāravidhānaṃ pana puññato<br>ñeyyaṃ paccayato c' eva vipākesu ca viññunā",
       lit:
-        "40. It should be known by the wise that the resultant is of prompted or unprompted kind <span class='annotation' data-critical-note='According Abhidh-av-pṭ I 10-1, some teachers say that like reflection of the face in the mirror moves when the face moves, even so the resultant of unprompted consciousness will be unprompted, and the result of prompted -- prompted. Others say if the causing <i>kamma</i>, etc. is powerful and clear, the resultant is unprompted, if it is weak -- prompted. Abhidh-av-aṭ I 209 elaborates the second view further: when in someone’s mind on the verge of death with <i>kamma</i> being active, without inducement of others, without encouragement, the <i>kamma</i>, sign of <i>kamma</i>, or sign of destination appears, the rebirth consciousness is unprompted; when the <i>kamma</i>, etc. appears being encouraged, induced by someone, it is prompted. This teacher did not specify the registration being prompted or unprompted on account of excellent or poor food, climate, etc., or on account of the preceding wholesome or unwholesome consciousness. That is why this opinion is expressed just by words ‘in accord with cause’.'>because of merit, as well as because of conditions.</span>",
+        "40. It should be known by the wise that the resultant is of prompted or unprompted kind <span class='annotation' data-critical-note='According Abhidh-av-pṭ I 10-1, some teachers say that like reflection of the face in the mirror moves when the face moves, even so the resultant of unprompted consciousness will be unprompted, and the result of prompted -- prompted. Others say if the causing <em>kamma</em>, etc. is powerful and clear, the resultant is unprompted, if it is weak -- prompted. Abhidh-av-nṭ I 209 elaborates the second view further: when in someone’s mind on the verge of death with <em>kamma</em> being active, without inducement of others, without encouragement, the <em>kamma</em>, sign of <em>kamma</em>, or sign of destination appears, the rebirth consciousness is unprompted; when the <em>kamma</em>, etc. appears being encouraged, induced by someone, it is prompted. This teacher did not specify the registration being prompted or unprompted on account of excellent or poor food, climate, etc., or on account of the preceding wholesome or unwholesome consciousness. That is why this opinion is expressed just by words ‘in accord with cause’.'>because of merit, as well as because of conditions.</span>",
       free:
-        "40. Whether the resultant is of prompted or unprompted kind will depend<br>on merit, and other conditions, thus should the wise understand.",
+        "40. Whether the resultant is of prompted or unprompted kind depends<br>on merit, and other conditions,<br> thus should the wise understand.",
     },
 
     {
@@ -787,7 +787,7 @@ const theText = [
 
     {
       pali:
-        "tattha cakkhusannissita-rūpavijānana-lakkhaṇaṃ cakkhuviññāṇaṃ, rūpamattārammaṇa-rasaṃ, rūpābhimukhabhāva-paccupaṭṭhānaṃ, rūpārammaṇanaṃ kiriyāmanodhātuyā apagama-padaṭṭhānaṃ. tathā sota-ghāṇa-jivhā-kāyaviññāṇāni sotādisannissitāni, saddādīsu abhimukhabhāva-paccupaṭṭhānāni, saddādi-ārammaṇanaṃ kriyāmanodhātūnaṃ apagama-padaṭṭhānāni.<span class='testimonia' data-critical-note='<i>cf</i>. As 262 <sub>10-17</sub> Vism 455 <sub>1-7</sub>'></span>",
+        "tattha cakkhusannissita-rūpavijānana-lakkhaṇaṃ cakkhuviññāṇaṃ, rūpamattārammaṇa-rasaṃ, rūpābhimukhabhāva-paccupaṭṭhānaṃ, rūpārammaṇanaṃ kiriyāmanodhātuyā apagama-padaṭṭhānaṃ. tathā sota-ghāṇa-jivhā-kāyaviññāṇāni sotādisannissitāni, saddādīsu abhimukhabhāva-paccupaṭṭhānāni, saddādi-ārammaṇanaṃ kriyāmanodhātūnaṃ apagama-padaṭṭhānāni.<span class='testimonia' data-critical-note='<em>cf</em>. As 262 <sub>10-17</sub> Vism 455 <sub>1-7</sub>'></span>",
       lit:
         "Therein, eye-consciousness is supported by eye and has the characteristic of cognizing form. Its function is to have only form as its object. Its manifestation is a state of being turned towards form. Its proximate cause is the functional mind-element leaving form-object. Likewise, ear, nose, tongue, and body consciousnesses are supported by ear, etc. Their manifestation is a state of being turned towards sound. etc., and their proximate cause is the functional mind-element leaving sound-object, etc..",
       free: "",
@@ -795,7 +795,7 @@ const theText = [
 
     {
       pali:
-        "manodhātu-sampaṭicchanaṃ cakkhuviññāṇādīnaṃ anantaraṃ rūpādivijānana-lakkhaṇaṃ, rūpādisampaṭicchana-rasaṃ, tathābhāva-paccupaṭṭhānaṃ, cakkhuviññāṇādīnaṃ apagama-padaṭṭḥanaṃ.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 455<sub>8-10</sub>'></span>",
+        "manodhātu-sampaṭicchanaṃ cakkhuviññāṇādīnaṃ anantaraṃ rūpādivijānana-lakkhaṇaṃ, rūpādisampaṭicchana-rasaṃ, tathābhāva-paccupaṭṭhānaṃ, cakkhuviññāṇādīnaṃ apagama-padaṭṭḥanaṃ.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 455<sub>8-10</sub>'></span>",
       lit:
         "The characteristic of the receiving mind-element is cognizing form, etc., immediately after eye-consciousness, etc. Its function is to receive form, etc. The state of receiving form, etc. is its manifestation. Its proximate cause is eye-consciousness, and so on leaving.",
       free: "",
@@ -803,7 +803,7 @@ const theText = [
 
     {
       pali:
-        "sesā pana dve ahetuka-manoviññāṇadhātuyo chalārammaṇa-vijānana-lakkhaṇā, santīraṇādi-rasā tathābhāva-paccupaṭṭhānā, hadayavatthu-padaṭṭhānā 'ti<span class='testimonia' data-critical-note='<i>cf</i>. Vism 455 <sub>10-13</sub>'></span> veditabbā.",
+        "sesā pana dve ahetuka-manoviññāṇadhātuyo chalārammaṇa-vijānana-lakkhaṇā, santīraṇādi-rasā tathābhāva-paccupaṭṭhānā, hadayavatthu-padaṭṭhānā 'ti<span class='testimonia' data-critical-note='<em>cf</em>. Vism 455 <sub>10-13</sub>'></span> veditabbā.",
       lit:
         "Furthermore, the characteristic of the remaining two rootless mind-consciousness-elements is cognizing the six objects. Their function is to investigate, etc. The state of investigating, etc. is their manifestation. Their proximate cause is the heart-base. Thus they should be known.",
       free: "",
@@ -811,7 +811,7 @@ const theText = [
 
     {
       pali:
-        "tattha paṭhamā ekantam iṭṭhārammaṇe pavatti-sambhavato somanassayuttā 'va hutvā pañcadvāre santīraṇa-kiccaṃ sādhayamānā pañcasu dvāresu ṭhatvā vipaccanti.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 455 <sub>15-18</sub>'></span> chasu pana dvāresu balavārammaṇe tadālambaṇam hutvā vipaccati. [10]",
+        "tattha paṭhamā ekantam iṭṭhārammaṇe pavatti-sambhavato somanassayuttā 'va hutvā pañcadvāre santīraṇa-kiccaṃ sādhayamānā pañcasu dvāresu ṭhatvā vipaccanti.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 455 <sub>15-18</sub>'></span> chasu pana dvāresu balavārammaṇe tadālambaṇam hutvā vipaccati. [10]",
       lit:
         "Of them, the first one is associated with pleasure only because its occurrence originates exclusively on account of extremely desirable object. It ripens in the five-doors performing function of investigation in the five-doors [cognitive process]. And in the six-doors, when there is a great object, it ripens as registration. [10]",
       free: "",
@@ -819,7 +819,7 @@ const theText = [
 
     {
       pali:
-        "dutiyā pana iṭṭhamajjhattārammaṇe pavatti-sambhavato upekkhāsahagatā hutvā santīraṇa-tadālambaṇa-paṭisandhi-bhavaṅga-cuti-vasena pavattanato pañcasu ṭhānesu vipaccati.<span class='testimonia' data-critical-note='<i>cf</i>. Vism 455 <sub>18-20</sub>'></span>",
+        "dutiyā pana iṭṭhamajjhattārammaṇe pavatti-sambhavato upekkhāsahagatā hutvā santīraṇa-tadālambaṇa-paṭisandhi-bhavaṅga-cuti-vasena pavattanato pañcasu ṭhānesu vipaccati.<span class='testimonia' data-critical-note='<em>cf</em>. Vism 455 <sub>18-20</sub>'></span>",
       lit:
         "But the second one is associated with equanimity because its occurrence originates on account of a moderately desirable object. It ripens occurring in five instances: as investigation, registration, rebirth-linking, life continuum, and death.",
       free: "",
@@ -837,45 +837,45 @@ const theText = [
       pali:
         "44. kusalānugataṃ katvā bhājitaṃ kiṃ mahaggataṃ<br>kāmāvacara-puññaṃ 'va nāsamāna-phalaṃ yato",
       lit:
-        "44. Why is the exalted [resultant] analysed having made it <span class='annotation' data-critical-note='Abhidh-av-pṭ I 11 explains ‘following the wholesome’(<i>kusalānugataṃ</i>) as ‘similar to exalted wholesome consciousness (<i>mahaggatakusalacittena samānaṃ</i>)’, and Abhidh-av-aṭ I 215 as ‘corresponding to wholesome, like wholesome (<i>kusalānurūpaṃ kusalasadisaṃ</i>)’.'>following the wholesome?</span> Because it is of the fruit that is not similar to [the fruit of] the sphere-of-sense-desire’s merit.",
+        "44. Why is the exalted [resultant] analysed having made it <span class='annotation' data-critical-note='Abhidh-av-pṭ I 11 explains ‘following the wholesome’(<em>kusalānugataṃ</em>) as ‘similar to exalted wholesome consciousness (<em>mahaggatakusalacittena samānaṃ</em>)’, and Abhidh-av-nṭ I 215 as ‘corresponding to wholesome, like wholesome (<em>kusalānurūpaṃ kusalasadisaṃ</em>)’.'>following the wholesome?</span> Because it is of the fruit that is not similar to [the fruit of] the sphere-of-sense-desire’s merit.",
       free:
         "44. Why is the exalted analyzed [in a similar manner] as the wholesome? Because the way it produces fruits and the way the merit of the sphere-of-sense-desires does are different.",
     },
 
     {
       pali:
-        "45. attano kusaleh 'eva samānaṃ sabbathā idaṃ<br>gajādīnaṃ yathā chāyā gajādisadisā tathā<span class='testimonia' data-critical-note='<i>cf.</i> As 289 <sub>2-7</sub>'></span>",
+        "45. attano kusaleh 'eva samānaṃ sabbathā idaṃ<br>gajādīnaṃ yathā chāyā gajādisadisā tathā<span class='testimonia' data-critical-note='<em>cf.</em> As 289 <sub>2-7</sub>'></span>",
       lit:
-        "45. It is similar <span class='annotation' data-critical-note='Abhidh-av-aṭ I 216: <i>sabbathāti dhammato ārammaṇato paṭipadādito ca</i> (‘in every way’ means with regard to dhammas, the object and the way of practice).'>in every way</span> to its own wholesome, like elephant's, etc. shadow is to the elephant, etc.",
+        "45. It is similar <span class='annotation' data-critical-note='Abhidh-av-nṭ I 216: <em>sabbathāti dhammato ārammaṇato paṭipadādito ca</em> (‘in every way’ means with regard to dhammas, the object and the way of practice).'>in every way</span> to its own wholesome, like elephant's, etc. shadow is to the elephant, etc.",
       free:
         "45. [Unlike the resultant of the merit of the sphere-of-sense-desires,] it is similar to its own wholesome in every way: [same states, same object, practice and so on] -- just like elephant’s and other [objects'] shadows are similar to these objects.",
     },
 
     {
       pali:
-        "46. kāmāvacara-puññaṃ va nāparāpariya-vedanaṃ<br>jhānā aparihīnassa sattassa bhavagāmino [11]<br>47. kusalānantaraṃ yeva phalaṃ uppajjatīti ca<br>ñāpanatthaṃ pan'etassa kusalānugataṃ kataṃ<span class='testimonia' data-critical-note='<i>cf.</i> As 289 <sub>7-10</sub>'></span>",
+        "46. kāmāvacara-puññaṃ va nāparāpariya-vedanaṃ<br>jhānā aparihīnassa sattassa bhavagāmino [11]<br>47. kusalānantaraṃ yeva phalaṃ uppajjatīti ca<br>ñāpanatthaṃ pan'etassa kusalānugataṃ kataṃ<span class='testimonia' data-critical-note='<em>cf.</em> As 289 <sub>7-10</sub>'></span>",
       lit:
-        "46-7. It is not like the merit of the sphere-of-sense-desires that is experienced in the later rebirths. For the being who has not fallen away from a <i>jhāna</i> [and] is about to come to existence [11], immediately after the wholesome, arises the result. And it is for the purpose of conveying this, it is made as following the wholesome.",
+        "46-7. It is not like the merit of the sphere-of-sense-desires that is experienced in the later rebirths. For the being who has not fallen away from a <em>jhāna</em> [and] is about to come to existence [11], immediately after the wholesome, arises the result. And it is for the purpose of conveying this, it is made as following the wholesome.",
       free:
-        "46-7. It is not like merit of the sphere-of-sense-desires [the results of which are] experienced in subsequent rebirths. For the being who has not fallen away from a <i>jhāna</i> and who is about to be born [11], immediately after the wholesome, arises the result. And to convey this, it is treated [in a similar manner] as the wholesome.",
+        "46-7. It is not like merit of the sphere-of-sense-desires [the results of which are] experienced in subsequent rebirths. For the being who has not fallen away from a <em>jhāna</em> and who is about to be born [11], immediately after the wholesome, arises the result. And to convey this, it is treated [in a similar manner] as the wholesome.",
     },
 
     {
       pali:
-        "48. <span id='reading41'>paṭipadākkamo</span> c' eva hīnādīnañ ca bhedato<br>jhānāgamanato c' ettha <span id='reading42'>veditabbo</span> vibhāvinā<span class='testimonia' data-critical-note='<i>cf.</i> As 289 <sub>11-13</sub>'></span>",
+        "48. <span id='reading41'>paṭipadākkamo</span> c' eva hīnādīnañ ca bhedato<br>jhānāgamanato c' ettha <span id='reading42'>veditabbo</span> vibhāvinā<span class='testimonia' data-critical-note='<em>cf.</em> As 289 <sub>11-13</sub>'></span>",
       lit:
-        "48. The order of practice and classification into inferior and so on here should be understood by the wise as coming from <i>jhāna</i>.",
+        "48. The order of practice and classification into inferior and so on here should be understood by the wise as coming from <em>jhāna</em>.",
       free:
-        "48. Here, the wise should understand that the order of practice and classification [of the resultants] into inferior and so on  comes from <i>jhāna</i>.",
+        "48. Here, the wise should understand that the order of practice and classification [of the resultants] into inferior and so on  comes from <em>jhāna</em>.",
     },
 
     {
       pali:
-        "49. abhāvo 'dhipatīnañ ca ayam eva <span id='reading43'>visesako</span><br>sesaṃ sabbañ <span id='reading44'>c' asesena</span> kusalena samaṃ mataṃ<span class='testimonia' data-critical-note='<i>cf.</i> As 289 <sub>14-15</sub>'></span><br><br>evaṃ rūpāvacara-arūpāvacara-<span id='reading45'>vipākā</span> veditabbāni.",
+        "49. abhāvo 'dhipatīnañ ca ayam eva <span id='reading43'>visesako</span><br>sesaṃ sabbañ <span id='reading44'>c' asesena</span> kusalena samaṃ mataṃ<span class='testimonia' data-critical-note='<em>cf.</em> As 289 <sub>14-15</sub>'></span><br><br>evaṃ rūpāvacara-arūpāvacara-<span id='reading45'>vipākā</span> veditabbāni.",
       lit:
         "49. And the absence of the predominances, this is the only differentiator. With respect to all the rest, they are considered to be like wholesome.<br><br>Thus should be known the resultants of the fine-material and the immaterial spheres.",
       free:
-        "49. The only thing differentiating them from the wholesome is the absence of the predominances. With respect to all the rest, they are considered to be alike.<br><br>Thus should be known the resultants of the fine-material and the immaterial spheres.",
+        "49. The exalted resultant consciousness differs from the wholesome only in that it lack predominances. With respect to all the rest, the two are considered to be alike.",
     },
 
     {
@@ -896,15 +896,15 @@ const theText = [
 
     {
       pali:
-        "evaṃ pan' ettha ekekaṃ jhānaṅgayogabhedato pañcavidhaṃ, puna <span id='reading48'>maggavīthiphalasamāpattivasena duvidhaṃ.</span><span class='testimonia' data-critical-note='<i>cf.</i> Vism 456<sub>23-5</sub>'></span> evaṃ lokuttarakusala-vipākacittāni veditabbāni.",
+        "evaṃ pan' ettha ekekaṃ jhānaṅgayogabhedato pañcavidhaṃ, puna <span id='reading48'>maggavīthiphalasamāpattivasena duvidhaṃ.</span><span class='testimonia' data-critical-note='<em>cf.</em> Vism 456<sub>23-5</sub>'></span> evaṃ lokuttarakusala-vipākacittāni veditabbāni.",
       lit:
-        "But when each of them here is classified according to the associated <i>jhāna</i> factors, each become five. Further, by means of dividing according to [ the occurrence] in the path or the fruition cognitive processes, they are of two kinds. Thus should be known the resultant consciousnesses of supramundane wholesome.",
+        "But when each of them here is classified according to the associated <em>jhāna</em> factors, each become five. Further, by means of dividing according to [ the occurrence] in the path or the fruition cognitive processes, they are of two kinds. Thus should be known the resultant consciousnesses of supramundane wholesome.",
       free: "",
     },
 
     {
       pali:
-        "50. suññataṃ animitañ <span id='reading49'>ti</span> tathāppaṇihitan ti pi<br>etāni tīṇi nāmāni maggassānantare phale<br>51. labbhanti parabhāgasmiṃ <span id='reading50'>valañjanaphalesu na</span><br>vipassanāvasen' eva tāṇi nāmāni labbhare<span class='testimonia' data-critical-note='<i>cf.</i> As 290 <sub>17-22</sub>'></span>",
+        "50. suññataṃ animitañ <span id='reading49'>ti</span> tathāppaṇihitan ti pi<br>etāni tīṇi nāmāni maggassānantare phale<br>51. labbhanti parabhāgasmiṃ <span id='reading50'>valañjanaphalesu na</span><br>vipassanāvasen' eva tāṇi nāmāni labbhare<span class='testimonia' data-critical-note='<em>cf.</em> As 290 <sub>17-22</sub>'></span>",
       lit:
         "50-1. Void, signless, and likewise desireless -- these three names are obtained in fruitions succeeding the path. In fruitions attained afterwards, they are not obtained. [In them,] <span class='annotation' data-critical-note='When the path and fruition are attained through the contemplation of non-self, impermanence, and suffering, they are called ‘void’, ‘signless’, and ‘desireless’ respectively. Only the fruitions of the path cognitive process get the names according to the kind of the path that precedes them. The fruitions of the fruition cognitive process get the names according to the kind of insight that precedes them.'>those names are obtained only according to the [kind of preceding] insight.</span>",
       free: "",
@@ -912,9 +912,9 @@ const theText = [
 
     {
       pali:
-        "52. honti sādhipatīn' eva lokuttaraphalāni tu<br>vīpāke 'dhipatī natthi ṭhapetvā tu anāsave<span class='testimonia' data-critical-note='<i>cf</i>. As 291 <sub>27-28</sub>'></span>",
+        "52. honti sādhipatīn' eva lokuttaraphalāni tu<br>vīpāke 'dhipatī natthi ṭhapetvā tu anāsave<span class='testimonia' data-critical-note='<em>cf</em>. As 291 <sub>27-28</sub>'></span>",
       lit:
-        "52. The supramundane fruitions are only with predominances. However, except for the <span class='annotation' data-critical-note='Here ‘taintless’ (<i>anāsava</i>) means supramundane resultants, not resultants of an arahant.'>taintless ones,</span> in resultants,  there are no predominances.",
+        "52. The supramundane fruitions are only with predominances. However, except for the <span class='annotation' data-critical-note='Here ‘taintless’ (<em>anāsava</em>) means supramundane resultants, not resultants of an arahant.'>taintless ones,</span> in resultants,  there are no predominances.",
       free:
         "52. The supramundane fruitions are with predominances always.<br> Except for the taintless ones, however,<br> in all the other resultants, predominances lack.",
     },
@@ -923,7 +923,7 @@ const theText = [
       pali:
         "53. attano maggabhāvena maggo maggo ti vuccati<br>phalaṃ maggam upādāya maggo nāmā 'ti vuccatīti<br><br>evaṃ lokuttara-vipākā veditabbā.",
       lit:
-        "53. The path is called 'path' <span class='annotation' data-critical-note='The point that the author seems to be making here is that the path is called so in a figurative sense, not literary. It is called a path because one is progressively advancing towards the destruction of the defilements, because one is moving towards the realisation of <i>nibbāna</i>.'>because of one’s own nature being a path.</span> It is called 'path' with reference to fruition and path.<br><br>Thus should be known supramundane resultants.",
+        "53. The path is called 'path' <span class='annotation' data-critical-note='The point that the author seems to be making here is that the path is called so in a figurative sense, not literary. It is called a path because one is progressively advancing towards the destruction of the defilements, because one is moving towards the realisation of <em>nibbāna</em>.'>because of one’s own nature being a path.</span> It is called 'path' with reference to fruition and path.<br><br>Thus should be known supramundane resultants.",
       free:
         "53. Because of one’s moving towards realisation [as if on a path] it is called a 'path'. And the word 'path' refers both to fruition and path.<br><br>Thus should be known supramundane resultants.",
     },
@@ -938,7 +938,7 @@ const theText = [
 
     {
       pali:
-        "ettha pana upekkhāsahagataṃ ahetuka-manoviññāṇadhātu ekādasavidhenā pi akusalacittena kamme āyūhite kamma-kammanimitta-gatinimittesu aññataraṃ ārammaṇaṃ katvā catusu apāyesu paṭisandhi hutvā vipaccati.<span class='testimonia' data-critical-note='<i>cf.</i> As 293<sub>3-6</sub>'></span>",
+        "ettha pana upekkhāsahagataṃ ahetuka-manoviññāṇadhātu ekādasavidhenā pi akusalacittena kamme āyūhite kamma-kammanimitta-gatinimittesu aññataraṃ ārammaṇaṃ katvā catusu apāyesu paṭisandhi hutvā vipaccati.<span class='testimonia' data-critical-note='<em>cf.</em> As 293<sub>3-6</sub>'></span>",
       lit:
         "Herein, when the kamma is activated by the <span class='annotation' data-critical-note='The one associated with restlessness has power to give result only during life and not at rebirth.'>eleven kinds of unwholesome consciousness,</span> after it has presented an object of kamma, sign of kamma or sign of destination, the rootless mind-consciousness-element accompanied by equanimity ripens as rebirth-linking in the four woeful realms.",
       free: "",
@@ -946,7 +946,7 @@ const theText = [
 
     {
       pali:
-        "paṭisandhiyā vītivat[12]tāya dutiyacittavāraṃ. <span id='reading51'>tato</span> paṭṭhāya yāvatāyukaṃ bhavaṅgaṃ hutvā aniṭṭha-majjhattārammaṇāya pañcaviññāṇavīthiyā santīraṇaṃ hutvā, balavārammaṇe chasu dvāresu tadārammaṇaṃ hutvā, maraṇakāle cuti hutvā vipaccati. evaṃ pañcasu ṭhānesu vipaccati.<span class='testimonia' data-critical-note='<i>cf.</i> As 292<sub>6-10</sub>'></span>",
+        "paṭisandhiyā vītivat[12]tāya dutiyacittavāraṃ. <span id='reading51'>tato</span> paṭṭhāya yāvatāyukaṃ bhavaṅgaṃ hutvā aniṭṭha-majjhattārammaṇāya pañcaviññāṇavīthiyā santīraṇaṃ hutvā, balavārammaṇe chasu dvāresu tadārammaṇaṃ hutvā, maraṇakāle cuti hutvā vipaccati. evaṃ pañcasu ṭhānesu vipaccati.<span class='testimonia' data-critical-note='<em>cf.</em> As 292<sub>6-10</sub>'></span>",
       lit:
         "After the rebirth-linking is the second occurrence of consciousness. Starting from that, for the rest of the life it ripens as life continuum, as investigation in the cognitive process with five-objects that are moderately undesirable, as registration with regard to a great object in the six-door [cognitive process], and as death at the time of dying. In this way it ripens in five instances.",
       free: "",
@@ -954,7 +954,7 @@ const theText = [
 
     {
       pali:
-        "kevalañ hi tāṇi kusalavipākāhetukacittāni kusalakamma-paccayāni, imāni akusalakamma-paccayāni.<span class='testimonia' data-critical-note='<i>cf.</i> As 292<sub>29-31</sub>'></span> ayam imesaṃ tesañ ca viseso.",
+        "kevalañ hi tāṇi kusalavipākāhetukacittāni kusalakamma-paccayāni, imāni akusalakamma-paccayāni.<span class='testimonia' data-critical-note='<em>cf.</em> As 292<sub>29-31</sub>'></span> ayam imesaṃ tesañ ca viseso.",
       lit:
         "All those rootless resultants of wholesome are caused by wholesome kamma, these[, on the other hand,] are caused by unwholesome. And this is the difference between them.",
       free: "",
@@ -962,7 +962,7 @@ const theText = [
 
     {
       pali:
-        "54. aniṭṭhāniṭṭhamajjhattagocare vattare ime<br>sukhādittayayuttā te dukkhupekkhāyuttā ime<span class='testimonia' data-critical-note='<i>cf.</i> As 292<sub>31</sub>-293<sub>1</sub>'></span>",
+        "54. aniṭṭhāniṭṭhamajjhattagocare vattare ime<br>sukhādittayayuttā te dukkhupekkhāyuttā ime<span class='testimonia' data-critical-note='<em>cf.</em> As 292<sub>31</sub>-293<sub>1</sub>'></span>",
       lit:
         "54. These occur in the sphere of undesirable and moderately undesirable objects. <span class='annotation' data-critical-note='‘Those’ refers to the eight rootless resultants of wholesome, and ‘the three starting with pleasure’, to the feelings of pleasure, happiness and equanimity.'>Those are accompanied by the three starting with pleasure.</span> These are accompanied by pain and equanimity.",
       free:
@@ -973,7 +973,7 @@ const theText = [
       pali:
         "evaṃ kāṃāvacarakusalavipāka-sahetukam aṭṭhavidham, ahetukam aṭṭhavidhaṃ. jhānaṅgayogabhedato rūpāvacaravipākaṃ pañcavidhaṃ. ārammaṇabhedato arūpāvacaravipākaṃ catubbidhaṃ. maggasampayuttacitta-phalabhedato lokuttaravipākaṃ catubbidhaṃ. cakkhuviññāṇādibhedato akusalavipākaṃ sattavidhan ti chattiṃsavidha-vipākacittaṃ veditabbaṃ.",
       lit:
-        "In this way, rooted resultant of wholesome of the sphere-of-sense-desires is of eight kinds. Rootless is of eight kinds. According to the classification with regard to <i>jhāna</i> factors, the resultant of the fine-material is of five kinds. According to the classification with regard to objects, the resultant of the immaterial is of four kinds. According to the classification with regard to [being a] fruition of consciousnesses associated with the four paths, the supramundane resultant is of four kinds. According to the classification with regard to eye-consciousness, etc., the unwholesome resultant is of seven kinds. Thus should be known the thirty-six kinds of resultant consciousness.",
+        "In this way, rooted resultant of wholesome of the sphere-of-sense-desires is of eight kinds. Rootless is of eight kinds. According to the classification with regard to <em>jhāna</em> factors, the resultant of the fine-material is of five kinds. According to the classification with regard to objects, the resultant of the immaterial is of four kinds. According to the classification with regard to [being a] fruition of consciousnesses associated with the four paths, the supramundane resultant is of four kinds. According to the classification with regard to eye-consciousness, etc., the unwholesome resultant is of seven kinds. Thus should be known the thirty-six kinds of resultant consciousness.",
       free: "",
     },
 
@@ -1034,7 +1034,7 @@ const theText = [
 
     {
       pali:
-        "tattha kiriyāhetuka-manodhātu upekkhāsahagatā hadayavatthuṃ nissāya cakkhudvāre iṭṭha-iṭṭhamajjhatta-aniṭṭha-aniṭṭhamajjhattesu rūpārammaṇesu yena kenaci pasāde ghaṭṭite taṃ taṃ ārammaṇaṃ gahetvā āvajjana-vasena cakkhuviññāṇassa purecārī hutvā bhavaṅgaṃ āvattayamānā uppajjati. sotadvārādīsu pi es' eva nayo.<span class='testimonia' data-critical-note='<i>cf.</i> As 294<sub>4-8</sub>'></span>",
+        "tattha kiriyāhetuka-manodhātu upekkhāsahagatā hadayavatthuṃ nissāya cakkhudvāre iṭṭha-iṭṭhamajjhatta-aniṭṭha-aniṭṭhamajjhattesu rūpārammaṇesu yena kenaci pasāde ghaṭṭite taṃ taṃ ārammaṇaṃ gahetvā āvajjana-vasena cakkhuviññāṇassa purecārī hutvā bhavaṅgaṃ āvattayamānā uppajjati. sotadvārādīsu pi es' eva nayo.<span class='testimonia' data-critical-note='<em>cf.</em> As 294<sub>4-8</sub>'></span>",
       lit:
         "Therein, functional rootless mind-element accompanied by equanimity supported by heart-base arises in the eye-door when a desirable, moderately desirable, undesirable, moderately undesirable object impinges on someone’s [eye-]sensitivity. It takes that object and, by means of adverting, being a precursor of eye-consciousness, turns the life continuum. [It occurs] in the same way in the ear-door, etc. ",
       free: "",
@@ -1044,13 +1044,13 @@ const theText = [
       pali:
         "itarā pana dve ahetuka-manoviññāṇadhātuyo <span id='reading54'>sādhāraṇāsādhāraṇā</span> 'ti duvidhā honti. tattha asādhāraṇā pana kiriyāhetuka-manoviññāṇadhātu somanassa-sahagatā khīṇāsavass 'eva chasu dvāresu <span id='reading55'>anuḷāresu </span> ārammaṇesu hasituppāda-kiccā niyatavatthukā uppajjati. ",
       lit:
-        "The other two rootless mind-consciousness-elements are of two kinds: common [to all], and special. Therein, the special is functional rootless mind-consciousness-element accompanied by happiness. Necessarily having a base, it arises with minor objects in the six doors of an <i>arahant</i> only and performs the function of producing a smile.",
+        "The other two rootless mind-consciousness-elements are of two kinds: common [to all], and special. Therein, the special is functional rootless mind-consciousness-element accompanied by happiness. Necessarily having a base, it arises with minor objects in the six doors of an <em>arahant</em> only and performs the function of producing a smile.",
       free: "",
     },
 
     {
       pali:
-        "sādhāraṇā pana ahetukamanoviññāṇadhātu upekkhāsahagatā <span id='reading56'>chaḷārammaṇavijānana-lakkhaṇā,</span> tathābhāva-paccupaṭṭhānā.<span class='testimonia' data-critical-note='<i>cf.</i> Vism 457<sub>1-3</sub>'></span> sā tīsu bhavesu sabbesaṃ sacittaka-sattānaṃ sādhāraṇā. na kassaci <span id='reading57'>pana</span> sacittakassa na uppajjati nāma.<span class='testimonia' data-critical-note='<i>cf.</i> As 295<sub>13-15</sub>'></span>",
+        "sādhāraṇā pana ahetukamanoviññāṇadhātu upekkhāsahagatā <span id='reading56'>chaḷārammaṇavijānana-lakkhaṇā,</span> tathābhāva-paccupaṭṭhānā.<span class='testimonia' data-critical-note='<em>cf.</em> Vism 457<sub>1-3</sub>'></span> sā tīsu bhavesu sabbesaṃ sacittaka-sattānaṃ sādhāraṇā. na kassaci <span id='reading57'>pana</span> sacittakassa na uppajjati nāma.<span class='testimonia' data-critical-note='<em>cf.</em> As 295<sub>13-15</sub>'></span>",
       lit:
         "Rootless mind-consciousness-element accompanied by equanimity, on the other hand,  has the characteristic of cognizing six objects. That state [of cognizing] is its manifestation. It is common in the three planes to all beings that have mind. Indeed, there is no being with mind for whom it does not arise.",
       free: "",
@@ -1058,7 +1058,7 @@ const theText = [
 
     {
       pali:
-        "uppajjamānā panāyaṃ pañcadvāra-manodvāresu votthapanāvajjanakiccā uppajjati. cha asādhāraṇañāṇāni pi etāya gahitārammaṇam eva gaṇhanti. sabbārammaṇagahaṇa-samatthatāya sabbaññutañāṇagatīkā ti veditabbā.<span class='testimonia' data-critical-note='<i>cf.</i> As 295<sub>15-19</sub>'></span> Imāni tīṇi ahetuka-kriyācittāni.",
+        "uppajjamānā panāyaṃ pañcadvāra-manodvāresu votthapanāvajjanakiccā uppajjati. cha asādhāraṇañāṇāni pi etāya gahitārammaṇam eva gaṇhanti. sabbārammaṇagahaṇa-samatthatāya sabbaññutañāṇagatīkā ti veditabbā.<span class='testimonia' data-critical-note='<em>cf.</em> As 295<sub>15-19</sub>'></span> Imāni tīṇi ahetuka-kriyācittāni.",
       lit:
         "When arising in the five doors and in the mind-door, it arises performing functions of determining and adverting. The six special knowledges  as well take the grasped object only with it. In its ability to take all objects it is comparable to knowledge of omniscience. These are the three rootless functional consciousnesses.",
       free: "",
@@ -1066,7 +1066,7 @@ const theText = [
 
     {
       pali:
-        "idha ṭhatvā hasanacittāni pariggaṇhitabbāni. terasa hasanacittāni. kusalato catūhi somanassa-sahagatehi, akusalato catūhī ti imehi aṭṭhahi cittehi puthujjanā hasanti. sekhā pana kusalato catūhi akusalato dvīhi diṭṭhigatavippayutta-somanassasahagatehī ti chahi hasanti. khīṇāsavā kriyato pañcahi somanassasahagatehi hasantīti.<span class='testimonia' data-critical-note='<i>cf.</i> As 295<sub>24-32</sub>'></span>",
+        "idha ṭhatvā hasanacittāni pariggaṇhitabbāni. terasa hasanacittāni. kusalato catūhi somanassa-sahagatehi, akusalato catūhī ti imehi aṭṭhahi cittehi puthujjanā hasanti. sekhā pana kusalato catūhi akusalato dvīhi diṭṭhigatavippayutta-somanassasahagatehī ti chahi hasanti. khīṇāsavā kriyato pañcahi somanassasahagatehi hasantīti.<span class='testimonia' data-critical-note='<em>cf.</em> As 295<sub>24-32</sub>'></span>",
       lit:
         "Having stopped here, [now], the 'smiling' consciousnesses should be comprehended. The smiling consciousnesses are thirteen. The worldlings smile with these eight consciousnesses: of wholesome [consciousnesses], with four accompanied by happiness, and of the unwholesome, with four. As for the trainees, they smile with six consciousnesses: of the wholesome, with four, and of the unwholesome, with two accompanied by happiness and dissociated from wrong view. Arahants smile with five of the functional [consciousnesses] accompanied by happiness.",
       free: "",
@@ -1115,7 +1115,7 @@ const theText = [
 
     {
       pali:
-        "58. yā puthujjanakālasmiṃ abhinibbattitā pana<br>rūpārūpasamāpatti sā khīṇāsavabhikkhuno<br>59. yāva khīṇāsavo bhikkhu <span id='reading63'>na samāpajjat' eva naṃ</span><br>tāvatā kusalā eva samāpannā sace kriyā<span class='testimonia' data-critical-note='<i>cf.</i> As 296<sub>3-6</sub>'></span>",
+        "58. yā puthujjanakālasmiṃ abhinibbattitā pana<br>rūpārūpasamāpatti sā khīṇāsavabhikkhuno<br>59. yāva khīṇāsavo bhikkhu <span id='reading63'>na samāpajjat' eva naṃ</span><br>tāvatā kusalā eva samāpannā sace kriyā<span class='testimonia' data-critical-note='<em>cf.</em> As 296<sub>3-6</sub>'></span>",
       lit:
         "58-9. For a taintless monk, the fine-material and formless attainment that was practised at the time of being a worldling is wholesome only as long as he has not attained it again, but if it is attained, it is functional.",
       free: "",
@@ -1125,7 +1125,7 @@ const theText = [
       pali:
         "evaṃ somanassādibhedato kāṃāvacarasahetukakriyācittam aṭṭhavidhaṃ, manodhātumanoviññāṇadhātu-dvayabhedato ahetukaṃ tividhaṃ, jhānaṅgayogabhedato rūpāvacaraṃ pañcavidhaṃ, ārammaṇabhedato arūpāvacaraṃ catubbidhaṃ. evaṃ bhūmivasena vīsatividhaṃ kiriyācittaṃ veditabban 'ti.",
       lit:
-        "In this way, according to the classification with regard to pleasure, etc., rooted functional consciousness of the sphere-of-sense-desires is of eight kinds. According to the classification into the mind-element and the pair of mind-consciousness-elements, the rootless is of three kinds. According to the classification with regard to <i>jhāna</i> factors, the fine-material is of five kinds. According to the classification with regard to objects, the immaterial is of four kinds. Thu should be known the twenty kinds of functional consciousness [classified] according to the plane.",
+        "In this way, according to the classification with regard to pleasure, etc., rooted functional consciousness of the sphere-of-sense-desires is of eight kinds. According to the classification into the mind-element and the pair of mind-consciousness-elements, the rootless is of three kinds. According to the classification with regard to <em>jhāna</em> factors, the fine-material is of five kinds. According to the classification with regard to objects, the immaterial is of four kinds. Thu should be known the twenty kinds of functional consciousness [classified] according to the plane.",
       free: "",
     },
 
@@ -1142,7 +1142,7 @@ const theText = [
       pali:
         "61. lokuttarakriyācittaṃ pana kasmā na vijjati<br>ekacittakkhaṇattā hi maggassā ti na vijjati",
       lit:
-        "61. But why is there no supramundane functional consciousness? It does not exist because of the path’s <span class='annotation' data-critical-note='Abhidh-av-aṭ I 223: ‘duration of one mind-moment’ means occurring for one mind moment only. If it would be arising repeatedly then for the arahant arising of functional states would be desirable. But it occurs only once because the task of penetration of the four noble truths is accomplished in one occurrence, and it cannot be obtained when that task is absent.'>duration being one mind-moment.</span>",
+        "61. But why is there no supramundane functional consciousness? It does not exist because of the path’s <span class='annotation' data-critical-note='Abhidh-av-nṭ I 223: ‘duration of one mind-moment’ means occurring for one mind moment only. If it would be arising repeatedly then for the arahant arising of functional states would be desirable. But it occurs only once because the task of penetration of the four noble truths is accomplished in one occurrence, and it cannot be obtained when that task is absent.'>duration being one mind-moment.</span>",
       free:
         "61. But why is there no supramundane functional consciousness? It does not exist because the path lasts for one mind-moment [only].",
     },
@@ -1168,7 +1168,7 @@ const theText = [
       pali:
         "63. ekavīsati puññāni dvādasākusalāni ca<br>chattiṃs 'eva vipākāni kriyācittāni vīsati<br>64. ekūnanavuti sabbe cittuppādā Mahesinā<br>aṭṭha lokuttare katvā <span id='reading64'>niddiṭṭhā hi</span> samāsato",
       lit:
-        "63-4. Twenty-one meritorious, twelve unwholesome, thirty-six resultant, and twenty functional consciousnesses -- all eighty-nine rises of consciousness, taking eight [of them] as supramundane, <span class='annotation' data-critical-note='This word is added here following the explanation of the Abhidh-av-aṭ I 224: ‘Those eighty-nine rises of consciousness that were spoken <i>(vutta)</i>, were expounded by me.’'>[spoken]</span> by the Great Sage, were expounded in brief.",
+        "63-4. Twenty-one meritorious, twelve unwholesome, thirty-six resultant, and twenty functional consciousnesses -- all eighty-nine rises of consciousness, taking eight [of them] as supramundane, <span class='annotation' data-critical-note='This word is added here following the explanation of the Abhidh-av-nṭ I 224: ‘Those eighty-nine rises of consciousness that were spoken <em>(vutta)</em>, were expounded by me.’'>[spoken]</span> by the Great Sage, were expounded in brief.",
       free: "",
     },
 
@@ -1293,7 +1293,7 @@ const theText = [
 
     {
       pali:
-        "1403. atthato ganthato <span id='reading7'>cāpi</span> yuttito <span id='reading8'>vāpi</span> ettha ca<br>ayuttaṃ vā viruddhaṃ vā yadi dissati kiñci pi<br>1404. pubbāparaṃ viloketvā vicāretvā punappunaṃ<br>dhīmatā <span id='reading9'>taṃ gahetabbaṃ</span> gahetabbaṃ na dosato.<span class='testimonia' data-critical-note='<i>cf.</i> Upās 356$_{21-28}$ '</span>",
+        "1403. atthato ganthato <span id='reading7'>cāpi</span> yuttito <span id='reading8'>vāpi</span> ettha ca<br>ayuttaṃ vā viruddhaṃ vā yadi dissati kiñci pi<br>1404. pubbāparaṃ viloketvā vicāretvā punappunaṃ<br>dhīmatā <span id='reading9'>taṃ gahetabbaṃ</span> gahetabbaṃ na dosato.<span class='testimonia' data-critical-note='<em>cf.</em> Upās 356$_{21-28}$ '</span>",
       lit:
         "1403. If something here appears inappropriate or contrary in terms of the meaning, the form, or suitability, it should be taken up by the wise [only] having examined what is before and what is after, having repeatedly thought over, [and] should not be grasped wrongly.",
       free: "",
@@ -1303,14 +1303,14 @@ const theText = [
       pali:
         "1405. tividhā byappathānañ hi gatiyo dubbidhāpi <span id='reading10'>ce</span><br>tasmā upaparikkhitvā veditabbaṃ vibhāvinā.",
       lit:
-        "1405. Therefore, it should be understood by the wise having investigated the methods of the <span class='annotation' data-critical-note='Abhidh-av-pṭ I 116 explains the three ways of explanation being according to the meaning, the form, and suitability. Abhidh-av-aṭ 2 281, on the other hand, connects one with grammar, another, with meaning, and the third one, with both grammar and meaning.'>three kinds of ways of explanation,</span>  even if they are of a difficult kind.",
+        "1405. Therefore, it should be understood by the wise having investigated the methods of the <span class='annotation' data-critical-note='Abhidh-av-pṭ I 116 explains the three ways of explanation being according to the meaning, the form, and suitability. Abhidh-av-nṭ 2 281, on the other hand, connects one with grammar, another, with meaning, and the third one, with both grammar and meaning.'>three kinds of ways of explanation,</span>  even if they are of a difficult kind.",
       free:
         "1405. Therefore, the wise should comprehend it after examining it by the three methods of explanation, even if it is difficult.",
     },
 
     {
       pali:
-        "1406. nikāyantaraladdhīhi asammisso anākulo<br>mahāvihāravāsīnaṃ vācanāmagganissito <br>1407. madhurakkharasaṃyutto attho yasmā pakāsito<br>tasmā hitatthakāmena kātabbo ettha ādaro<span class='testimonia' data-critical-note='<i>cf.</i> Upās 357$_{1-8}$'</span>",
+        "1406. nikāyantaraladdhīhi asammisso anākulo<br>mahāvihāravāsīnaṃ vācanāmagganissito <br>1407. madhurakkharasaṃyutto attho yasmā pakāsito<br>tasmā hitatthakāmena kātabbo ettha ādaro<span class='testimonia' data-critical-note='<em>cf.</em> Upās 357$_{1-8}$'</span>",
       lit:
         "1406-7. Since the meaning that has been elucidated is undisturbed, not mixed with the doctrines of other groups, supported by the way of expression of those living in the Mahāvihāra and conjoined with sweet syllables, it should be held in high esteem by one wishing for [beings'] benefit and welfare.",
       free: "",
@@ -1318,7 +1318,7 @@ const theText = [
 
     {
       pali:
-        "1408. saddhammaṭṭhitikāmena karontena ca yaṃ mayā<br>puññam adhigataṃ tena sukhaṃ pappontu pāṇino<span class='testimonia' data-critical-note='<i>cf.</i> Upās 357$_{9-12}$ '</span>",
+        "1408. saddhammaṭṭhitikāmena karontena ca yaṃ mayā<br>puññam adhigataṃ tena sukhaṃ pappontu pāṇino<span class='testimonia' data-critical-note='<em>cf.</em> Upās 357$_{9-12}$ '</span>",
       lit:
         "1408. And by the merit attained by me making it wishing for the persistence of dhamma, may beings attain happiness.",
       free:
@@ -1327,7 +1327,7 @@ const theText = [
 
     {
       pali:
-        "1409. antarāyaṃ vinā cāyaṃ yathā siddhim upāgato<br>tathā kalyāṇasaṅkappā siddhiṃ gacchantu pāṇinaṃ.<span class='testimonia' data-critical-note='<i>cf.</i> Upās 357$_{13-16}$'</span>[138]",
+        "1409. antarāyaṃ vinā cāyaṃ yathā siddhim upāgato<br>tathā kalyāṇasaṅkappā siddhiṃ gacchantu pāṇinaṃ.<span class='testimonia' data-critical-note='<em>cf.</em> Upās 357$_{13-16}$'</span>[138]",
       lit:
         "1409. As it has attained success without obstacles, so may beautiful intentions of living beings meet with success [138].",
       free:

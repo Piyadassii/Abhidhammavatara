@@ -750,25 +750,25 @@ const footnotes = [
     page: "index",
     id: 1,
     note:
-      "Karunadasa (1989, 2014), for example, often cites the text, and Gethin (2001) uses one chapter of the text along with the <i>Dhammasaṅgaṇi</i> and the <i>Atthasālinī</i> to establish commentarial treatment of <i>indriyas</i>, <i>balas</i>, <i>jhānaṅgas</i> and <i>maggaṅgas</i>.",
+      "Karunadasa (1989, 2014), for example, often cites the text, and Gethin (2001) uses one chapter of the text along with the <em>Dhammasaṅgaṇi</em> and the <em>Atthasālinī</em> to establish commentarial treatment of <em>indriyas</em>, <em>balas</em>, <em>jhānaṅgas</em> and <em>maggaṅgas</em>.",
   },
   {
     page: "about",
     id: 1,
     note:
-      "For example, for Nabokov 'The term “free translation” smacks of knavery and tyranny... The clumsiest literal translation is a thousand times more useful than the prettiest paraphrase.' <span data-tippy-content = 'Nabokov, Vladimir (2012). Problems of Translation: Onegin in English. In: <i>The Translation Studies Reader.</i> Ed. by Lawrence Venuti. 3rd ed. Oxon; New York: Routledge, pp. 113–126.'>(Nabokov 2012, p. 113)</span>",
+      "For example, for Nabokov 'The term “free translation” smacks of knavery and tyranny... The clumsiest literal translation is a thousand times more useful than the prettiest paraphrase.' <span data-tippy-content = 'Nabokov, Vladimir (2012). Problems of Translation: Onegin in English. In: <em>The Translation Studies Reader.</em> Ed. by Lawrence Venuti. 3rd ed. Oxon; New York: Routledge, pp. 113–126.'>(Nabokov 2012, p. 113)</span>",
   },
   {
     page: "translation",
     id: 1,
     note:
-      "Abhi-āv-pt I 1: When consciousness is defined as that which knows, thinks about an object, all consciousness is meant (<i>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</i>).",
+      "Abhi-āv-pt I 1: When consciousness is defined as that which knows, thinks about an object, all consciousness is meant (<em>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</em>).",
   },
   {
     page: "translation",
     id: 2,
     note:
-      "Abhi-āv-pt I 1: When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant (<i>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</i>).",
+      "Abhi-āv-pt I 1: When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant (<em>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</em>).",
   },
   { page: "about", id: 2, note: "Second about note" },
 ];
@@ -776,8 +776,8 @@ const footnotes = [
 const notesPali = [
   [],
   [
-    "Abhi-āv-pt I 1: <i>Ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ.</i>",
-    "Abhi-āv-pt I 1: <i>Javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</i>.",
+    "Abhi-āv-pt I 1: <em>Ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ.</em>",
+    "Abhi-āv-pt I 1: <em>Javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</em>.",
   ],
 ];
 
@@ -795,13 +795,13 @@ notesToTrans = [
     chapter: 1,
     id: 1,
     note:
-      "Abhi-āv-pt I 1: When consciousness is defined as that which knows, thinks about an object, all consciousness is meant (<i>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</i>).",
+      "Abhi-āv-pt I 1: When consciousness is defined as that which knows, thinks about an object, all consciousness is meant (<em>ārammaṇaṃ cinteti jānātīti cittaṃ, tadā sabbaṃ cittaṃ adhippetaṃ</em>).",
   },
   {
     text: "english",
     chapter: 1,
     id: 2,
     note:
-      "Abhi-āv-pt I 1: When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant (<i>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</i>).",
+      "Abhi-āv-pt I 1: When consciousness is defined as that which accumulates the continuum of one-self, only wholesome, unwholesome and great functional consciousness is meant (<em>javanavīthivasena attasantānaṃ cinotī ti cittaṃ, tadā kusalākusalamahākiriyācittaṃ adhippetaṃ</em>).",
   },
 ];

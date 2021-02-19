@@ -875,7 +875,7 @@ const theText = [
       lit:
         "49. And the absence of the predominances, this is the only differentiator. With respect to all the rest, they are considered to be like wholesome.<br><br>Thus should be known the resultants of the fine-material and the immaterial spheres.",
       free:
-        "49. The exalted resultant consciousness differs from the wholesome only in that it lack predominances. With respect to all the rest, the two are considered to be alike.",
+        "49. The exalted resultant consciousness differs from the wholesome only in that it lacks predominances. With respect to all the rest, the two are considered to be alike.",
     },
 
     {
